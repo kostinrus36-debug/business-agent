@@ -213,3 +213,68 @@ CJ Dropshipping — реальные цены на аддоны найдены: 
 "Подарок для скалолаза, который влюблён в свой маршрут. Минималистичная
 линия повторяет реальный профиль подъёма — от старта до топа, с настоящими
 категориями сложности. Не просто футболка — история одного восхождения."
+
+## Копирайтинг — черновики листингов (2026-08-09, готово к вставке)
+
+Роль: копирайтер. Готовые тексты под 2 самых сильных дизайна (можно
+вставить в Etsy Shop Manager без дополнительной правки; владелец только
+проверяет длину под актуальные лимиты Etsy на момент публикации).
+
+### Kalymnos / KAL-GG
+**Заголовок (140 симв.):** Climbing Route Line Shirt Kalymnos | Minimalist
+Rock Climbing T-Shirt Gift | Personalized Route Map Tee | Grade 6c+ Climber
+
+**Первый абзац описания:**
+"Подарок для скалолаза, который влюблён в свой маршрут. Минималистичная
+линия повторяет реальный профиль подъёма на Kalymnos — от старта до топа,
+с настоящей категорией сложности 6c+. Не просто футболка — история одного
+восхождения."
+
+**13 тегов:** climbing shirt, kalymnos climbing, rock climbing gift,
+route line tee, climber gift men, minimalist climbing, sport climbing tee,
+climbing t-shirt, boulder gift, mountain climber, 6c+ climbing, climbing
+present, climbing route art
+
+### Route Line / 7b (топо-текстура)
+**Заголовок (140 симв.):** Topo Route Climbing Shirt 7b | Rock Climbing
+Map T-Shirt Gift for Climbers | Minimalist Topography Tee | Sport Climbing
+
+**Первый абзац описания:**
+"Топографическая текстура скалы с настоящим профилем маршрута 7b — для
+тех, кто помнит каждую зацепку. Подарок скалолазу, который читает камень
+как карту."
+
+**13 тегов:** climbing topo shirt, route map tee, 7b climbing, rock
+climbing gift, sport climbing tee, topography shirt, climber present,
+minimalist climbing tee, boulder gift men, climbing route art, mountain
+tee gift, climbing grade shirt, outdoor climber gift
+
+### План объединения листингов (без затрат, чинится в Etsy UI)
+11 листингов — сгруппировать по концепции дизайна в варианты одного
+листинга (цвет/маршрут как вариант, не отдельная карточка):
+1. Route Line (KAL-GG, 4 цвета) → 1 листинг, 4 варианта.
+2. Siurana/El Pati (SP-SIUR-PB, 6 цветов) → 1 листинг, 6 вариантов.
+3. Arco (IT-ARC-M-B, 7 цветов) → 1 листинг, 7 вариантов.
+4. Thailand (TH-PN-B, 7 цветов) → 1 листинг, 7 вариантов.
+5. Route Line / 7b (топо) и SXEMATIKA — отдельные листинги (разные
+   концепции дизайна, не варианты одного).
+
+Итог: 11 карточек → 5 сильных листингов с сконцентрированным трафиком
+и избранным, вместо распылённых почти-дублей. Выполняет владелец в Etsy
+Shop Manager (Edit listing → Variations) — 15-20 минут на всё, бесплатно.
+
+### Черновик поста в Instagram (органика, канал уже есть)
+"Твой маршрут — это не просто цифры в топо-гайде. Это история, которую
+можно носить 🧗 Минималистичные футболки с реальным профилем твоего
+восхождения — Kalymnos, Siurana, Arco, Thailand. Ссылка в био →
+ROUTELINEWEAR на Etsy. #climbing #kletterhalle #boulder #rockclimbing"
+
+## Research gap: точная область печати SPOD/Gelato (2026-08-09)
+Веб-поиск не дал точных см/дюймов области печати для SPOD и Gelato DTG —
+обе компании публикуют это только в личном кабинете дизайнера (SPOD Design
+Tool / Gelato Dashboard → Product Catalog), закрыто без аккаунта. Это
+не блокирует тестовую регистрацию (бесплатно), просто нельзя посчитать
+заранее, влезет ли дизайн 4500×5400px без обрезки — владелец увидит это
+сразу в редакторе при загрузке файла на пробный товар.
+Источники: support.gelato.com/en/articles/8996362 (форматы), SPOD design
+tool (spod.com) — нужен логин для точных цифр.

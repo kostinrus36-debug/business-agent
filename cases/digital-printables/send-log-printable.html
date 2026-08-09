@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Climbing Send Log</title>
+<style>
+  @page { size: A4; margin: 14mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin: 0;
+  }
+  .page {
+    page-break-after: always;
+    min-height: 269mm;
+  }
+  .page:last-child { page-break-after: avoid; }
+  h1 {
+    font-size: 22pt;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 2mm 0;
+    border-bottom: 3px solid #1a1a1a;
+    padding-bottom: 4mm;
+  }
+  .subtitle {
+    font-size: 9pt;
+    color: #666;
+    margin-bottom: 8mm;
+    letter-spacing: 1px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 8.5pt;
+  }
+  th {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 7pt;
+    letter-spacing: 0.5px;
+    color: #666;
+    border-bottom: 2px solid #1a1a1a;
+    padding: 3mm 2mm;
+  }
+  td {
+    border-bottom: 0.5px solid #ccc;
+    padding: 4.5mm 2mm;
+    height: 4mm;
+  }
+  .send-log th:nth-child(1), .send-log td:nth-child(1) { width: 16%; }
+  .send-log th:nth-child(2), .send-log td:nth-child(2) { width: 26%; }
+  .send-log th:nth-child(3), .send-log td:nth-child(3) { width: 12%; }
+  .send-log th:nth-child(4), .send-log td:nth-child(4) { width: 12%; }
+  .send-log th:nth-child(5), .send-log td:nth-child(5) { width: 34%; }
+
+  .footer {
+    position: fixed;
+    bottom: 8mm;
+    font-size: 7pt;
+    color: #999;
+    letter-spacing: 1px;
+  }
+  .stats-row {
+    display: flex;
+    gap: 6mm;
+    margin: 8mm 0 10mm 0;
+  }
+  .stat-box {
+    flex: 1;
+    border: 1.5px solid #1a1a1a;
+    padding: 5mm;
+  }
+  .stat-box .label {
+    font-size: 7pt;
+    text-transform: uppercase;
+    color: #666;
+    letter-spacing: 1px;
+  }
+  .stat-box .line {
+    border-bottom: 1px solid #1a1a1a;
+    height: 8mm;
+    margin-top: 2mm;
+  }
+  .grade-pyramid {
+    margin-top: 6mm;
+  }
+  .grade-row {
+    display: flex;
+    align-items: center;
+    gap: 3mm;
+    margin-bottom: 2mm;
+  }
+  .grade-label {
+    width: 14mm;
+    font-size: 8pt;
+    font-weight: bold;
+  }
+  .grade-boxes {
+    display: flex;
+    gap: 1.5mm;
+  }
+  .grade-box {
+    width: 6mm;
+    height: 6mm;
+    border: 1px solid #1a1a1a;
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <h1>Send Log</h1>
+  <div class="subtitle">ROUTELINEWEAR &middot; Track every route, every session, every send</div>
+
+  <table class="send-log">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Crag / Wall</th>
+        <th>Route</th>
+        <th>Grade</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- 22 empty rows -->
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+      <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+  <div class="footer">ROUTELINEWEAR &middot; routelinewear.etsy.com &middot; page 1/2</div>
+</div>
+
+<div class="page">
+  <h1>Training Tracker</h1>
+  <div class="subtitle">Monthly overview &middot; fill in as you climb</div>
+
+  <div class="stats-row">
+    <div class="stat-box">
+      <div class="label">Month</div>
+      <div class="line"></div>
+    </div>
+    <div class="stat-box">
+      <div class="label">Sessions this month</div>
+      <div class="line"></div>
+    </div>
+    <div class="stat-box">
+      <div class="label">Hardest send</div>
+      <div class="line"></div>
+    </div>
+    <div class="stat-box">
+      <div class="label">Goal grade</div>
+      <div class="line"></div>
+    </div>
+  </div>
+
+  <div class="grade-pyramid">
+    <div class="subtitle" style="margin-bottom:4mm;">Grade Pyramid &mdash; mark one box per send at each grade</div>
+    <div class="grade-row"><div class="grade-label">7a+</div><div class="grade-boxes">
+      <div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div>
+    </div></div>
+    <div class="grade-row"><div class="grade-label">7a</div><div class="grade-boxes">
+      <div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div>
+    </div></div>
+    <div class="grade-row"><div class="grade-label">6c+</div><div class="grade-boxes">
+      <div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div>
+    </div></div>
+    <div class="grade-row"><div class="grade-label">6c</div><div class="grade-boxes">
+      <div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div>
+    </div></div>
+    <div class="grade-row"><div class="grade-label">6b+</div><div class="grade-boxes">
+      <div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div>
+    </div></div>
+    <div class="grade-row"><div class="grade-label">6b</div><div class="grade-boxes">
+      <div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div><div class="grade-box"></div>
+    </div></div>
+  </div>
+
+  <table style="margin-top:10mm;">
+    <thead>
+      <tr><th>Focus area (e.g. finger strength, footwork, endurance)</th><th style="width:60%">Notes / next session plan</th></tr>
+    </thead>
+    <tbody>
+      <tr><td></td><td></td></tr>
+      <tr><td></td><td></td></tr>
+      <tr><td></td><td></td></tr>
+      <tr><td></td><td></td></tr>
+    </tbody>
+  </table>
+  <div class="footer">ROUTELINEWEAR &middot; routelinewear.etsy.com &middot; page 2/2</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Climbing Grade Converter — French, YDS, UIAA, British, V-Scale, Font</title>
+<meta name="description" content="Free climbing grade converter for sport, trad and bouldering grades: French, YDS, UIAA, British trad/tech, Ewbank, V-Scale, Fontainebleau.">
+<style>
+  :root {
+    --bg: #fafafa; --fg: #1a1a1a; --line: #1a1a1a; --muted: #666;
+    --accent: #1a1a1a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111; --fg: #eee; --line: #eee; --muted: #999; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--fg);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    max-width: 720px; margin: 0 auto; padding: 32px 20px 80px;
+  }
+  h1 {
+    font-size: 1.4rem; text-transform: uppercase; letter-spacing: 2px;
+    border-bottom: 3px solid var(--line); padding-bottom: 12px; margin-bottom: 4px;
+  }
+  .tagline { color: var(--muted); font-size: 0.85rem; margin-bottom: 28px; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 20px; }
+  .tab {
+    flex: 1; padding: 10px; text-align: center; border: 1.5px solid var(--line);
+    cursor: pointer; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 1px;
+    background: transparent; color: var(--fg);
+  }
+  .tab.active { background: var(--accent); color: var(--bg); }
+  .panel { display: none; }
+  .panel.active { display: block; }
+  select {
+    width: 100%; padding: 12px; font-size: 1rem; border: 1.5px solid var(--line);
+    background: var(--bg); color: var(--fg); margin-bottom: 20px;
+  }
+  .result-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 1px;
+    background: var(--line); border: 1.5px solid var(--line);
+  }
+  .result-cell {
+    background: var(--bg); padding: 14px;
+  }
+  .result-cell .sys { font-size: 0.7rem; text-transform: uppercase; color: var(--muted); letter-spacing: 1px; }
+  .result-cell .val { font-size: 1.3rem; font-weight: bold; margin-top: 4px; }
+  .note {
+    margin-top: 24px; font-size: 0.8rem; color: var(--muted); line-height: 1.5;
+  }
+  footer {
+    margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--muted);
+    font-size: 0.75rem; color: var(--muted); text-align: center;
+  }
+  footer a { color: var(--fg); }
+</style>
+</head>
+<body>
+
+<h1>Climbing Grade Converter</h1>
+<div class="tagline">Sport, trad &amp; bouldering grades across every major system</div>
+
+<div class="tabs">
+  <button class="tab active" data-panel="route">Route (Sport/Trad)</button>
+  <button class="tab" data-panel="boulder">Boulder</button>
+</div>
+
+<div class="panel active" id="route">
+  <select id="routeSelect"></select>
+  <div class="result-grid" id="routeResult"></div>
+  <div class="note">
+    Route grades converted across French, YDS (US), UIAA, British tech/adj
+    (trad), and Ewbank (AU/NZ). Grading systems were developed independently
+    for different climbing styles and regions, so conversions are reliable
+    to roughly half a grade in the middle of the scale, tighter at the
+    extremes.
+  </div>
+</div>
+
+<div class="panel" id="boulder">
+  <select id="boulderSelect"></select>
+  <div class="result-grid" id="boulderResult"></div>
+  <div class="note">
+    Boulder grades converted between V-Scale (US) and Fontainebleau/Font
+    (Europe). Like route grades, these are approximate equivalents, not an
+    exact mathematical mapping.
+  </div>
+</div>
+
+<footer>
+  A free tool by <a href="https://www.etsy.com/shop/ROUTELINEWEAR" target="_blank" rel="noopener">ROUTELINEWEAR</a>
+  — minimalist route-line climbing shirts &amp; printables.
+</footer>
+
+<script>
+// Route grades: French, YDS, UIAA, British (trad tech+adj shorthand), Ewbank
+// Ordered easy -> hard, approximate widely-published equivalences.
+const routeGrades = [
+  { fr: "4a",  yds: "5.6",   uiaa: "IV+",  brit: "4a (Mod)",     ewbank: "13" },
+  { fr: "4b",  yds: "5.7",   uiaa: "V-",   brit: "4b (VDiff)",   ewbank: "14" },
+  { fr: "4c",  yds: "5.8",   uiaa: "V",    brit: "4c (S)",       ewbank: "15" },
+  { fr: "5a",  yds: "5.9",   uiaa: "V+",   brit: "5a (VS)",      ewbank: "16" },
+  { fr: "5b",  yds: "5.10a", uiaa: "VI-",  brit: "5a/5b (HVS)",  ewbank: "17" },
+  { fr: "5c",  yds: "5.10b", uiaa: "VI",   brit: "5b (HVS)",     ewbank: "18" },
+  { fr: "6a",  yds: "5.10c", uiaa: "VI+",  brit: "5b/5c (E1)",   ewbank: "19" },
+  { fr: "6a+", yds: "5.10d", uiaa: "VII-", brit: "5c (E2)",      ewbank: "20" },
+  { fr: "6b",  yds: "5.11a", uiaa: "VII",  brit: "6a (E3)",      ewbank: "21" },
+  { fr: "6b+", yds: "5.11b", uiaa: "VII+", brit: "6a (E3/E4)",   ewbank: "22" },
+  { fr: "6c",  yds: "5.11c", uiaa: "VIII-",brit: "6a/6b (E4)",   ewbank: "23" },
+  { fr: "6c+", yds: "5.11d", uiaa: "VIII", brit: "6b (E5)",      ewbank: "24" },
+  { fr: "7a",  yds: "5.12a", uiaa: "VIII+",brit: "6b (E5)",      ewbank: "25" },
+  { fr: "7a+", yds: "5.12b", uiaa: "IX-",  brit: "6b/6c (E5/E6)",ewbank: "26" },
+  { fr: "7b",  yds: "5.12c", uiaa: "IX",   brit: "6c (E6)",      ewbank: "27" },
+  { fr: "7b+", yds: "5.12d", uiaa: "IX+",  brit: "6c (E6)",      ewbank: "28" },
+  { fr: "7c",  yds: "5.13a", uiaa: "X-",   brit: "6c/7a (E7)",   ewbank: "29" },
+  { fr: "7c+", yds: "5.13b", uiaa: "X",    brit: "7a (E7)",      ewbank: "30" },
+  { fr: "8a",  yds: "5.13c", uiaa: "X+",   brit: "7a (E8)",      ewbank: "31" },
+  { fr: "8a+", yds: "5.13d", uiaa: "XI-",  brit: "7a/7b (E8)",   ewbank: "32" },
+  { fr: "8b",  yds: "5.14a", uiaa: "XI",   brit: "7b (E9)",      ewbank: "33" },
+  { fr: "8b+", yds: "5.14b", uiaa: "XI+",  brit: "7b (E9)",      ewbank: "34" },
+  { fr: "8c",  yds: "5.14c", uiaa: "XII-", brit: "7b/7c (E10)",  ewbank: "35" },
+  { fr: "8c+", yds: "5.14d", uiaa: "XII",  brit: "7c (E10)",     ewbank: "36" },
+  { fr: "9a",  yds: "5.15a", uiaa: "XII+", brit: "7c (E11)",     ewbank: "37" },
+];
+
+// Boulder grades: V-Scale, Fontainebleau
+const boulderGrades = [
+  { v: "VB",  font: "3" },
+  { v: "V0",  font: "4" },
+  { v: "V1",  font: "5" },
+  { v: "V2",  font: "5+" },
+  { v: "V3",  font: "6a" },
+  { v: "V4",  font: "6a+/6b" },
+  { v: "V5",  font: "6b+/6c" },
+  { v: "V6",  font: "6c+" },
+  { v: "V7",  font: "7a" },
+  { v: "V8",  font: "7a+" },
+  { v: "V9",  font: "7b/7b+" },
+  { v: "V10", font: "7c" },
+  { v: "V11", font: "7c+" },
+  { v: "V12", font: "8a" },
+  { v: "V13", font: "8a+" },
+  { v: "V14", font: "8b" },
+  { v: "V15", font: "8b+" },
+  { v: "V16", font: "8c" },
+  { v: "V17", font: "8c+" },
+];
+
+function buildSelect(select, items, labelFn) {
+  select.innerHTML = items.map((item, i) => `<option value="${i}">${labelFn(item)}</option>`).join("");
+}
+
+function renderRoute(idx) {
+  const g = routeGrades[idx];
+  const result = document.getElementById("routeResult");
+  result.innerHTML = `
+    <div class="result-cell"><div class="sys">French</div><div class="val">${g.fr}</div></div>
+    <div class="result-cell"><div class="sys">YDS (US)</div><div class="val">${g.yds}</div></div>
+    <div class="result-cell"><div class="sys">UIAA</div><div class="val">${g.uiaa}</div></div>
+    <div class="result-cell"><div class="sys">British</div><div class="val">${g.brit}</div></div>
+    <div class="result-cell"><div class="sys">Ewbank (AU/NZ)</div><div class="val">${g.ewbank}</div></div>
+  `;
+}
+
+function renderBoulder(idx) {
+  const g = boulderGrades[idx];
+  const result = document.getElementById("boulderResult");
+  result.innerHTML = `
+    <div class="result-cell"><div class="sys">V-Scale (US)</div><div class="val">${g.v}</div></div>
+    <div class="result-cell"><div class="sys">Fontainebleau</div><div class="val">${g.font}</div></div>
+  `;
+}
+
+const routeSelect = document.getElementById("routeSelect");
+const boulderSelect = document.getElementById("boulderSelect");
+
+buildSelect(routeSelect, routeGrades, g => `French ${g.fr} / YDS ${g.yds}`);
+buildSelect(boulderSelect, boulderGrades, g => `V-Scale ${g.v} / Font ${g.font}`);
+
+routeSelect.addEventListener("change", e => renderRoute(e.target.value));
+boulderSelect.addEventListener("change", e => renderBoulder(e.target.value));
+
+renderRoute(10);   // default: French 6c
+renderBoulder(4);  // default: V3
+
+document.querySelectorAll(".tab").forEach(tab => {
+  tab.addEventListener("click", () => {
+    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+    document.querySelectorAll(".panel").forEach(p => p.classList.remove("active"));
+    tab.classList.add("active");
+    document.getElementById(tab.dataset.panel).classList.add("active");
+  });
+});
+</script>
+
+</body>
+</html>
