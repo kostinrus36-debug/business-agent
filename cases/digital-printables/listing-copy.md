@@ -60,3 +60,57 @@ ROUTELINEWEAR, загрузить `send-log-printable.pdf`, вставить г�
 ## Метрики
 Не запущено — просмотров/продаж пока нет (листинг ещё не создан
 владельцем в Etsy).
+
+---
+
+# Вторая позиция кейса 2 — Climbing Grade Chart Poster (2026-08-10)
+
+## Почему второй SKU, а не новый кейс
+Тот же ноль-издержек цифровой формат, тот же магазин, та же аудитория —
+просто второй тип продукта (декоративный постер вместо функционального
+трекера), чтобы у магазина было больше входных точек в поиске Etsy и
+больше шансов на кросс-продажу ("нравится трекер — вот постер в том же
+стиле"). Рутинное продолжение уже согласованного кейса 2, план заранее
+не требуется (см. устав, поправка 2026-08-10).
+
+## Продукт
+Файл: `grade-chart-poster.html` → `grade-chart-poster.pdf` (A3, 1 страница,
+чёрно-белый минимализм в стиле ROUTELINEWEAR). Полная таблица маршрутных
+грейдов (French/YDS/UIAA/British/Ewbank, 4a-9a) + таблица боулдеринга
+(V-Scale/Fontainebleau, VB-V17) на одном постере — справочник для стены
+скалодрома/гаража/комнаты, не только функциональный инструмент, но и
+предмет декора для той же аудитории.
+
+## Черновик листинга Etsy
+**Заголовок:** Climbing Grade Chart Poster | Rock Climbing & Bouldering
+Grade Conversion Print | Minimalist Wall Art | Instant Download A3
+
+**Цена:** €5.99 (чуть выше send log — постер печатного формата, у
+аналогичных грейд-чартов на Etsy диапазон €4-9)
+
+**Первый абзац описания:**
+"Every climbing grade system, one poster. French, YDS, UIAA, British and
+Ewbank route grades plus V-Scale and Fontainebleau boulder grades — laid
+out in a clean, minimalist chart that looks as good on your wall as it
+does pinned by the crag topo. Instant PDF download, print at A3 or scale
+to fit any frame."
+
+**13 тегов:** climbing grade chart, climbing poster, bouldering grade
+chart, climbing wall art, grade conversion chart, climbing decor, V-scale
+font chart, climbing gift digital, rock climbing print, minimalist
+climbing poster, sport climbing chart, climbing reference print, gym wall
+decor
+
+## Юнит-экономика
+- Цена: €5.99
+- Себестоимость: €0
+- Комиссии Etsy: ≈ €0.62 + $0.20 листинг ≈ €0.82 на продажу
+- **Маржа: ≈ €5.17 на продажу** — лучше, чем send log, тот же ноль риска.
+
+## Следующий шаг (владелец, бесплатно, 5-10 минут)
+Тот же батч, что и первая позиция кейса 2: создать второй листинг
+"digital download" в существующем магазине, загрузить
+`grade-chart-poster.pdf`, вставить текст выше.
+
+## Метрики
+Не запущено — листинг ещё не создан владельцем.

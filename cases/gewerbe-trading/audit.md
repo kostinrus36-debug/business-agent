@@ -275,6 +275,99 @@ Shop Manager (Edit listing → Variations) — 15-20 минут на всё, б�
 восхождения — Kalymnos, Siurana, Arco, Thailand. Ссылка в био →
 ROUTELINEWEAR на Etsy. #climbing #kletterhalle #boulder #rockclimbing"
 
+## Копирайтинг — оставшиеся 3 листинга (2026-08-10, готово к вставке)
+
+Продолжение раздела выше — на прошлой неделе были готовы тексты для 2 из
+5 итоговых листингов (Kalymnos, Route Line/7b). Ниже — оставшиеся 3, чтобы
+владелец мог сделать всю консолидацию 11→5 листингов за один присест,
+а не частями.
+
+**Важно про грейд в заголовке/тексте:** у меня нет доступа к самим файлам
+дизайна (только к именам файлов и записям в этом аудите) и нет доступа к
+Etsy Shop Manager, чтобы посмотреть точный грейд, напечатанный на каждом
+дизайне — Kalymnos (6c+) и Route Line/7b (7b) известны из прошлого аудита
+(видно на самом дизайне/в названии товара в Printful), но для Siurana,
+Arco и Thailand точный грейд на принте не подтверждён. Вместо того чтобы
+угадывать конкретное число, ниже — заголовок/теги с плейсхолдером
+**[ГРЕЙД]**, который владелец должен подставить, глядя на реальный файл
+дизайна, перед публикацией (одна вставка на 3 листинга, полностью
+переписывать текст не нужно).
+
+### Siurana / El Pati (SP-SIUR-PB, 6 цветов)
+**Заголовок (140 симв.):** Climbing Route Line Shirt Siurana El Pati |
+Minimalist Rock Climbing T-Shirt Gift | Spain Route Map Tee | Grade
+[ГРЕЙД] Climber
+
+**Первый абзац описания:**
+"Подарок для скалолаза, влюблённого в известняк Каталонии. Минималистичная
+линия повторяет реальный профиль подъёма на Siurana El Pati — от старта
+до топа, с настоящей категорией сложности [ГРЕЙД]. Не просто футболка —
+история одного восхождения."
+
+**13 тегов:** climbing shirt, siurana climbing, spain climbing gift, rock
+climbing gift, route line tee, climber gift men, minimalist climbing,
+sport climbing tee, climbing t-shirt, boulder gift, catalonia climbing,
+climbing present, climbing route art
+
+### Arco (IT-ARC-M-B, 7 цветов)
+**Заголовок (140 симв.):** Climbing Route Line Shirt Arco Italy |
+Minimalist Rock Climbing T-Shirt Gift | Italy Route Map Tee | Grade
+[ГРЕЙД] Climber
+
+**Первый абзац описания:**
+"Подарок для скалолаза, который знает Арко не по путеводителю, а по
+собственным маршрутам. Минималистичная линия повторяет реальный профиль
+подъёма — от старта до топа, с настоящей категорией сложности [ГРЕЙД].
+Не просто футболка — история одного восхождения."
+
+**13 тегов:** climbing shirt, arco climbing, italy climbing gift, rock
+climbing gift, route line tee, climber gift men, minimalist climbing,
+sport climbing tee, climbing t-shirt, boulder gift, garda climbing,
+climbing present, climbing route art
+
+### Thailand (TH-PN-B, 7 цветов)
+**Заголовок (140 симв.):** Climbing Route Line Shirt Thailand Railay |
+Minimalist Rock Climbing T-Shirt Gift | Thailand Route Map Tee | Grade
+[ГРЕЙД] Climber
+
+**Первый абзац описания:**
+"Подарок для скалолаза, который помнит известняк и море Railay/Ton Sai.
+Минималистичная линия повторяет реальный профиль подъёма — от старта до
+топа, с настоящей категорией сложности [ГРЕЙД]. Не просто футболка —
+история одного восхождения."
+
+**13 тегов:** climbing shirt, thailand climbing, railay climbing gift,
+rock climbing gift, route line tee, climber gift men, minimalist
+climbing, sport climbing tee, climbing t-shirt, boulder gift, ton sai
+climbing, climbing present, climbing route art
+
+Все 5 итоговых листинга теперь укомплектованы текстом (Kalymnos, Route
+Line/7b — готовы полностью; Siurana, Arco, Thailand — готовы, кроме
+одной подстановки грейда).
+
+## EU-фабрика печати — чек-лист на выполнение (2026-08-10)
+
+Собрано в один готовый к исполнению чек-лист (было размазано по разделам
+выше). Бесплатно, меняет только настройку существующего товара в
+Printful, влияет на юнит-экономику сильнее, чем на скорость доставки
+(см. "Исправление юнит-экономики" выше — переход в ЕС может быть разницей
+между "около нуля" и реальной прибылью).
+
+1. Printful Dashboard → выбрать товар (начать с Kalymnos — самый
+   продаваемый дизайн из имеющихся данных) → Edit product → Manufacturing
+   / Fulfillment.
+2. Найти опцию выбора фабрики/региона печати — по прошлому аудиту у
+   Printful есть мощности в Риге (Латвия) и Барселоне (Испания); сейчас
+   для этого товара стоит фабрика в США.
+3. Явно выбрать европейскую фабрику (Рига или Барселона — какая доступна
+   для конкретного бланка футболки, Printful показывает при выборе).
+4. Сохранить, проверить в предпросмотре Etsy, что срок доставки в
+   карточке товара обновился (должен упасть с 17-26 дней до нескольких
+   дней для ЕС).
+5. Повторить для остальных 4 итоговых листингов после консолидации.
+6. Не требует нового аккаунта — только настройка внутри уже существующего
+   Printful-аккаунта, привязанного к Etsy.
+
 ## Research gap: точная область печати SPOD/Gelato (2026-08-09)
 Веб-поиск не дал точных см/дюймов области печати для SPOD и Gelato DTG —
 обе компании публикуют это только в личном кабинете дизайнера (SPOD Design

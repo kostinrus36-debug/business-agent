@@ -1,0 +1,67 @@
+name: Deploy climbing hub (content-site + grade-tool) to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'cases/content-site/**'
+      - 'cases/grade-tool/**'
+      - '.github/workflows/deploy-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Assemble public site (only content-site + grade-tool, no internal docs)
+        run: |
+          set -e
+          mkdir -p _site/content-site _site/grade-tool
+
+          # Only .html files — leaves out niche-research.md / domain-plan.md (internal)
+          cp cases/content-site/*.html _site/content-site/
+          cp cases/grade-tool/*.html _site/grade-tool/
+
+          # Root redirect to the hub's real entry point, keeping all existing
+          # relative links inside content-site/ and grade-tool/ untouched.
+          cat > _site/index.html <<'EOF'
+          <!doctype html>
+          <html lang="de">
+          <head>
+          <meta charset="utf-8">
+          <meta http-equiv="refresh" content="0; url=content-site/index.html">
+          <link rel="canonical" href="content-site/index.html">
+          <title>Klettern Hub</title>
+          </head>
+          <body>
+          <p><a href="content-site/index.html">Weiter zu Klettern Hub</a></p>
+          </body>
+          </html>
+          EOF
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

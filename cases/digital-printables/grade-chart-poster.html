@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Climbing Grade Chart Poster</title>
+<style>
+  @page { size: A3; margin: 16mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    margin: 0;
+  }
+  h1 {
+    font-size: 34pt;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0 0 2mm 0;
+    border-bottom: 4px solid #1a1a1a;
+    padding-bottom: 6mm;
+  }
+  .subtitle {
+    font-size: 11pt;
+    color: #666;
+    margin: 6mm 0 14mm 0;
+    letter-spacing: 1px;
+  }
+  h2 {
+    font-size: 13pt;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 10mm 0 4mm 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12pt;
+  }
+  th {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 8.5pt;
+    letter-spacing: 1px;
+    color: #666;
+    border-bottom: 3px solid #1a1a1a;
+    padding: 4mm 2mm;
+  }
+  td {
+    border-bottom: 0.5px solid #ccc;
+    padding: 3.6mm 2mm;
+    font-weight: 600;
+  }
+  tr:nth-child(even) td { background: #f3f3f3; }
+  .route-table td:first-child { font-weight: bold; }
+  .boulder-wrap {
+    display: flex;
+    gap: 14mm;
+    margin-top: 4mm;
+  }
+  .boulder-wrap table { width: auto; }
+  .boulder-wrap td, .boulder-wrap th { padding-right: 8mm; }
+  .footer {
+    margin-top: 14mm;
+    padding-top: 5mm;
+    border-top: 1.5px solid #1a1a1a;
+    font-size: 8.5pt;
+    color: #666;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+</head>
+<body>
+
+<h1>Climbing Grade Chart</h1>
+<div class="subtitle">ROUTELINEWEAR &middot; Route &amp; boulder grades across every major system, side by side</div>
+
+<h2>Route Grades — Sport &amp; Trad</h2>
+<table class="route-table">
+  <thead>
+    <tr><th>French</th><th>YDS (US)</th><th>UIAA</th><th>British</th><th>Ewbank (AU/NZ)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>5a</td><td>5.9</td><td>V+</td><td>VS</td><td>16</td></tr>
+    <tr><td>5c</td><td>5.10b</td><td>VI</td><td>HVS</td><td>18</td></tr>
+    <tr><td>6a</td><td>5.10c</td><td>VI+</td><td>E1</td><td>19</td></tr>
+    <tr><td>6a+</td><td>5.10d</td><td>VII-</td><td>E2</td><td>20</td></tr>
+    <tr><td>6b</td><td>5.11a</td><td>VII</td><td>E3</td><td>21</td></tr>
+    <tr><td>6b+</td><td>5.11b</td><td>VII+</td><td>E3/E4</td><td>22</td></tr>
+    <tr><td>6c</td><td>5.11c</td><td>VIII-</td><td>E4</td><td>23</td></tr>
+    <tr><td>6c+</td><td>5.11d</td><td>VIII</td><td>E5</td><td>24</td></tr>
+    <tr><td>7a</td><td>5.12a</td><td>VIII+</td><td>E5</td><td>25</td></tr>
+    <tr><td>7a+</td><td>5.12b</td><td>IX-</td><td>E5/E6</td><td>26</td></tr>
+    <tr><td>7b</td><td>5.12c</td><td>IX</td><td>E6</td><td>27</td></tr>
+    <tr><td>7b+</td><td>5.12d</td><td>IX+</td><td>E6</td><td>28</td></tr>
+    <tr><td>7c</td><td>5.13a</td><td>X-</td><td>E7</td><td>29</td></tr>
+    <tr><td>7c+</td><td>5.13b</td><td>X</td><td>E7</td><td>30</td></tr>
+    <tr><td>8a</td><td>5.13c</td><td>X+</td><td>E8</td><td>31</td></tr>
+    <tr><td>8a+</td><td>5.13d</td><td>XI-</td><td>E8</td><td>32</td></tr>
+    <tr><td>8b</td><td>5.14a</td><td>XI</td><td>E9</td><td>33</td></tr>
+    <tr><td>8b+</td><td>5.14b</td><td>XI+</td><td>E9</td><td>34</td></tr>
+    <tr><td>8c</td><td>5.14c</td><td>XII-</td><td>E10</td><td>35</td></tr>
+    <tr><td>9a</td><td>5.15a</td><td>XII+</td><td>E11</td><td>37</td></tr>
+  </tbody>
+</table>
+
+<h2>Boulder Grades</h2>
+<div class="boulder-wrap">
+  <table>
+    <thead><tr><th>V-Scale</th><th>Font</th></tr></thead>
+    <tbody>
+      <tr><td>VB</td><td>3</td></tr>
+      <tr><td>V0</td><td>4</td></tr>
+      <tr><td>V1</td><td>5</td></tr>
+      <tr><td>V2</td><td>5+</td></tr>
+      <tr><td>V3</td><td>6a</td></tr>
+      <tr><td>V4</td><td>6a+/6b</td></tr>
+      <tr><td>V5</td><td>6b+/6c</td></tr>
+      <tr><td>V6</td><td>6c+</td></tr>
+      <tr><td>V7</td><td>7a</td></tr>
+      <tr><td>V8</td><td>7a+</td></tr>
+    </tbody>
+  </table>
+  <table>
+    <thead><tr><th>V-Scale</th><th>Font</th></tr></thead>
+    <tbody>
+      <tr><td>V9</td><td>7b/7b+</td></tr>
+      <tr><td>V10</td><td>7c</td></tr>
+      <tr><td>V11</td><td>7c+</td></tr>
+      <tr><td>V12</td><td>8a</td></tr>
+      <tr><td>V13</td><td>8a+</td></tr>
+      <tr><td>V14</td><td>8b</td></tr>
+      <tr><td>V15</td><td>8b+</td></tr>
+      <tr><td>V16</td><td>8c</td></tr>
+      <tr><td>V17</td><td>8c+</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="footer">
+  <span>ROUTELINEWEAR &middot; routelinewear.etsy.com</span>
+  <span>Print at A3 or scale to fit your frame</span>
+</div>
+
+</body>
+</html>
