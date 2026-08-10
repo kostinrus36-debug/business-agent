@@ -181,8 +181,8 @@ buildSelect(boulderSelect, boulderGrades, g => `V-Scale ${g.v} / Font ${g.font}`
 routeSelect.addEventListener("change", e => renderRoute(e.target.value));
 boulderSelect.addEventListener("change", e => renderBoulder(e.target.value));
 
-renderRoute(10);   // default: French 6c
-renderBoulder(4);  // default: V3
+renderRoute(0);    // default: matches select's default selected option (French 4a)
+renderBoulder(0);  // default: matches select's default selected option (V-Scale VB)
 
 document.querySelectorAll(".tab").forEach(tab => {
   tab.addEventListener("click", () => {
