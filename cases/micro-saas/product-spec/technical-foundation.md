@@ -25,6 +25,92 @@ HERO, Hawepro, Baufaktura) строят импорт/экспорт GAEB как 
 StLB-Bau/GAEB**, не изобретать свою таксономию — иначе выглядит
 непрофессионально для мастера, который уже знает эту систему.
 
+## Полный каталог специализаций VOB/C (не 5, а все 65 ATV)
+
+Официально в VOB/C (Teil C) — **65 действующих ATV** (DIN 18299 общая +
+64 специализации, DIN 18300-18459, нумерация не подряд — часть номеров
+отменена/не присвоена). Ниже полный список для планирования покрытия
+приложением, не только то, что уже детально расписано ниже в этом файле.
+
+**Земляные/подземные работы**: DIN 18300 Erdarbeiten, 18301 Bohrarbeiten,
+18302 Ausbau von Bohrungen, 18303 Verbauarbeiten, 18304 Ramm-/Rüttel-/
+Pressarbeiten, 18305 Wasserhaltungsarbeiten, 18306 Entwässerungskanal-
+arbeiten, 18307 Druckrohrleitungsarbeiten außerhalb Gebäuden, 18308 Drän-
+und Versickerarbeiten, 18309 Einpressarbeiten, 18311 Nassbaggerarbeiten,
+18312 Untertagebauarbeiten, 18313 Schlitzwandarbeiten, 18314 Spritzbeton-
+arbeiten, 18315-18318 Verkehrswegebau (Oberbau ohne Bindemittel/mit
+hydraulischen Bindemitteln/Asphalt/Pflaster), 18319 Rohrvortriebsarbeiten,
+18320 Landschaftsbauarbeiten, 18321 Düsenstrahlarbeiten, 18322 Kabel-
+leitungstiefbauarbeiten, 18323 Kampfmittelräumarbeiten, 18324 Horizontal-
+spülbohrarbeiten, 18325 Gleisbauarbeiten, 18326 Renovierung Entwässerungs-
+kanäle, 18329 Verkehrssicherungsarbeiten.
+
+**Каркас/несущие конструкции (Rohbau)**: DIN 18330 Mauerarbeiten, 18331
+Betonarbeiten, 18332 Naturwerksteinarbeiten, 18333 Betonwerksteinarbeiten,
+**18334 Zimmer- und Holzbauarbeiten**, 18335 Stahlbauarbeiten, 18336
+Abdichtungsarbeiten, **18338 Dachdeckungs- und Dachabdichtungsarbeiten**,
+18339 Klempnerarbeiten.
+
+**Отделка/фасад (Ausbau)**: 18340 Trockenbauarbeiten (уже детально ниже),
+18345 Wärmedämm-Verbundsysteme (WDVS/фасадное утепление), 18349 Beton-
+erhaltungsarbeiten, **18350 Putz- und Stuckarbeiten (штукатурка)**, 18351
+vorgehängte hinterlüftete Fassaden, **18352 Fliesen- und Plattenarbeiten
+(плитка)**, 18353 Estricharbeiten (стяжка), 18354 Gussasphaltarbeiten,
+18355 Tischlerarbeiten, 18356 Parkett- und Holzpflasterarbeiten, 18357
+Beschlagarbeiten, 18358 Rollladenarbeiten, 18360 Metallbauarbeiten, 18361
+Verglasungsarbeiten, **18363 Maler- und Lackierarbeiten (покраска)**,
+18364 Korrosionsschutzarbeiten an Stahlbauten, 18365 Bodenbelagarbeiten,
+18366 Tapezierarbeiten.
+
+**Инженерные системы (TGA)**: 18379 Raumlufttechnische Anlagen (уже
+детально ниже), 18380 Heizanlagen (уже детально ниже), 18381 Gas-/Wasser-/
+Entwässerungsanlagen (уже детально ниже), 18382 Elektro- (уже детально
+ниже), 18384 Blitzschutz-/Überspannungsschutz-/Erdungsanlagen, 18385
+Aufzugsanlagen/Fahrtreppen/Förderanlagen, 18386 Gebäudeautomation.
+
+**Прочее**: 18421 Dämm- und Brandschutzarbeiten an technischen Anlagen,
+**18451 Gerüstarbeiten (леса)**, 18459 Abbruch- und Rückbauarbeiten (демонтаж).
+
+**Важная оговорка про брусчатку/ступени**: брусчатка — это DIN 18318
+(Pflasterdecken und Plattenbeläge, часть дорожно-строительных работ),
+ступени в зависимости от материала — либо 18318 (брусчатка/плитка на
+улице), либо 18332/18333 (натуральный/искусственный камень), либо 18352
+(плитка на ступенях внутри). Не отдельная категория — уточню это в
+следующей ежедневной ревизии подробнее.
+
+**PV/солнечные панели** — отдельного ATV нет: электрическая часть по
+18382, кровельное крепление/проходки по 18338, леса по 18451 — отрасль
+(ZVEI) сама отмечает это как пробел в VOB/C.
+
+Выделены жирным (18334, 18338, 18350, 18352, 18363) — специализации,
+прямо названные владельцем (плитка, ступени, штукатурка) — это следующий
+приоритет для детальной проработки (стандарты + подсказки), не только
+уже расписанные 5.
+
+## Технологическая последовательность работ (критично, владелец 2026-08-13)
+
+Подсказки — это не просто "плоский список сопутствующих позиций", а
+**обязательная технологическая последовательность**, которую нельзя
+нарушать. Примеры от владельца (реальный опыт):
+- **Перед шпаклёвкой — грунтовка** (не после, не одновременно)
+- **Перед покраской — грунтовка** (отдельный слой, своя грунтовка под
+  тип краски)
+- Плитка/ступени/брусчатка — у каждого материала своя технологическая
+  цепочка (основание → гидроизоляция при необходимости → клеевой
+  состав → укладка → затирка), нарушение порядка = брак, который
+  вскроется позже и станет источником спора с заказчиком
+
+**Значит для продукта**: система подсказок должна знать не только "что
+обычно идёт вместе" (шлифовка+грунтовка+класс качества), но и **в каком
+порядке**, и не давать зафиксировать в документе технологически
+неправильную последовательность (или хотя бы явно предупреждать). Это
+отдельный уровень логики поверх простого автодополнения — граф
+зависимостей операций по каждому виду работ, не плоский список. Требует
+отдельной проработки по каждой специализации (грунтовка-перед-Х
+встречается у минимум 4 из уже расписанных: шпаклёвка, покраска, плитка,
+некоторые виды стяжки) — задача на ежедневную ревизию, начиная с
+ближайшего запуска.
+
 ## Специализации — стандарты по каждой
 
 ### Гипсокартон/шпаклёвка (Trockenbau)
