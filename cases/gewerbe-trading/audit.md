@@ -162,15 +162,94 @@ oversized/relaxed крой, не то что нужно). Финальный б�
 | Доставка (не проверено точно для этого провайдера в Германию) | ~€4-5 (оценка) |
 | **Итого себестоимость** | **~€19-23.5** |
 | Комиссия eBay (~13%) | ~€3.50 |
-| **Маржа при €25** | **~€0-2.5/шт — впритык, на дорогих цветах может уйти в 0 или минус** |
+| **Маржа при €25** | **~€0-2.5/шт — впритык, на дорогих цветах может уйти в 0 или минус (детальный разбор по сценариям ниже)** |
 
-**⚠ Открыто, требует проверки перед стартом**: диапазон цены бланка
-широкий ($15.63-19.42) — на верхней границе диапазона (какие именно
-цвета туда попадают — не проверено) экономика при €25 не сходится.
-Нужно: (1) узнать точную цену для конкретных цветов, которые пойдут в
-5 дизайнов, (2) уточнить реальную доставку в Германию через этого
-провайдера, (3) по факту — либо ограничиться дешёвыми цветами из
-диапазона, либо поднять розничную цену чуть выше €25.
+**✅ Частично закрыто веб-исследованием (2026-08-16) — с оговоркой по
+источникам.** Важно сразу: прямой доступ к printify.com и большинству
+сторонних обзорных сайтов (help.printify.com, swagify.com, podvector.ai,
+sourcelow.com, ssactivewear.com, даже en.wikipedia.org) в этой сессии
+заблокирован сетевым egress-прокси агента — каждая попытка WebFetch
+вернула `EGRESS_BLOCKED`. Ниже — то, что удалось собрать через
+поисковую выдачу (WebSearch), с указанием источника и честной пометкой
+там, где это оценка по аналогии, а не подтверждённое число. Живой логин
+владельца в Printify (см. "Прогресс" ниже) надёжнее любого из этого
+исследования и должен быть финальной проверкой перед публикацией.
+
+**1. Какие цвета попадают в диапазон $15.63-19.42.** Реальный список
+цветов бланка AA1301GD (по агрегированным данным оптовых листингов —
+ssactivewear.com/p/american_apparel/1301gd, wordans.com, shirtspace.com,
+jiffy.com, видно через поисковую выдачу, страницы напрямую не
+открылись): 8 цветов линейки "Faded" (приглушённый garment-dye) — Faded
+Army, Faded Black, Faded Bone, Faded Brown, Faded Cream, Faded Mustard,
+Faded Navy, Faded Powder Blue — плюс отдельный, не-"Faded" вариант
+**True Black** (насыщенный чёрный, отдельное крашение).
+
+Точный поколорный прайс Printify найти не удалось (каталог-страница
+недоступна из этой сессии). Но общий паттерн ценообразования Printify
+по цвету задокументирован в нескольких независимых разборах (агрегировано
+через поиск, например podvector.ai "How Much Does Printify Charge Per
+Shirt"): белый — самый дешёвый; меланж (heather) — +≈$0.50; чёрный и
+тёмные насыщенные цвета — +$1-1.50; неон/спецкраска — +$2-3 к базе. При
+ширине диапазона AA1301GD в $3.79 это по паттерну похоже на: **8 цветов
+линейки "Faded" — у нижней границы (~$15.63-16.5), True Black — у
+верхней границы (~$19.42)**, поскольку True Black — единственный
+не-"Faded" насыщенный цвет в линейке. **Это оценка по аналогии, не
+подтверждённая напрямую поколорная цена** — финальная проверка занимает
+меньше времени, чем заняло это исследование: в редакторе Printify выбрать
+цвет → посмотреть Cost breakdown.
+
+**2. Доставка в Германию через Printify Choice.** Официальная стартовая
+ставка Printify Choice (со страницы printify.com/shipping-rates/printify-choice/,
+видна через поисковую выдачу, сама страница не открылась напрямую в этой
+сессии): **от $4.29 за первую единицу + $2.09 за каждую следующую**, без
+разбивки по стране в найденном фрагменте. Отдельно всплыло упоминание
+(источник — обсуждение на Shopify Community, ориентировочно 2022 год,
+могло устареть) о дополнительной **+$3.50 к заказам в ЕС** через Printify
+Choice — если это ещё актуально, реальная доставка в Германию заметно
+выше оптимистичной оценки. Подтвердить или опровергнуть эту наценку из
+этой сессии не удалось.
+
+**Итог по доставке: €4-5 (оптимистично, старая оценка в файле) — до
+€7-8 (если ЕС-наценка ещё в силе). Не закрыто окончательно** — нужен один
+живой пробный чек-аут в Printify с немецким адресом доставки, это займёт
+у владельца меньше времени, чем заняло это исследование, и даст точный
+ответ вместо оценки.
+
+**Обновлённая маржа при €25, три сценария:**
+
+| Сценарий | Бланк | Брендинг | Доставка | Комиссия eBay (~13%) | Итого расход | Маржа |
+|---|---|---|---|---|---|---|
+| A. Дешёвый цвет ("Faded"), доставка оптимистично | €14.40 | €0.65 | €4.50 | €3.25 | €22.80 | **+€2.20/шт** |
+| B. True Black, доставка оптимистично | €17.90 | €0.65 | €4.50 | €3.25 | €26.30 | **-€1.30/шт** |
+| C. Дешёвый цвет, доставка пессимистично (ЕС-наценка) | €14.40 | €0.65 | €7.50 | €3.25 | €25.80 | **-€0.80/шт** |
+
+**Рекомендация:**
+1. Стартовать **только с цветами линейки "Faded"** (Cream, Bone, Army,
+   Navy, Brown, Mustard, Powder Blue) — они и попадают в дешёвую часть
+   диапазона по оценке выше, и по духу ближе к премиум-приглушённой
+   палитре (совпадает с ориентиром на Black Diamond, см. начало п.8.5),
+   чем насыщенный True Black.
+2. **Не использовать True Black при рознице €25** ни при одном из
+   рассмотренных сценариев доставки — маржа отрицательная даже в лучшем
+   случае (сценарий B).
+3. Перед первой публикацией — один живой чек-аут в Printify с доставкой
+   в Германию, чтобы закрыть последнюю неопределённость (сценарий A или
+   C). Если подтвердится пессимистичный сценарий C — поднять розницу до
+   **€27-28**: это всё ещё в рынке для премиум-позиционирования (бренды
+   уровня Black Diamond продают футболки от €30+), и лучше, чем листинг
+   в минус с первого дня.
+
+Источники по этому разделу: printify.com/shipping-rates/printify-choice/
+(только через фрагмент поисковой выдачи — прямой WebFetch заблокирован
+egress-прокси этой сессии); данные о цветах AA1301GD — ssactivewear.com/
+p/american_apparel/1301gd, wordans.com, shirtspace.com, jiffy.com (через
+поисковую выдачу); общий паттерн цветовых наценок Printify —
+podvector.ai/articles/printify/costs-and-charges/ (через поисковую
+выдачу). **Прямой доступ агента к printify.com сейчас заблокирован
+сетевой политикой этой сессии** — это ограничение инструмента в этом
+запуске, не решение "не проверять"; следующая сессия с рабочим доступом
+должна зайти на сам каталог-блюпринт напрямую и снять точный
+поколорный прайс.
 
 **Прогресс (2026-08-16, сделано вживую с владельцем через Printify в
 Chrome):**
@@ -231,6 +310,92 @@ Chrome):**
 **eBay**, Etsy откладывается ("пусть курит" — решение владельца
 2026-08-16), не закрывается совсем. eBay-аккаунт для этого может быть
 тот же gewerblich-аккаунт, что уже зарегистрирован для кейса 5.
+
+## eBay-Listing-Text (Kalymnos)
+
+Первый дизайн в очереди на публикацию (см. п.1, порядок запуска и
+"Прогресс" в п.8.5 — карточка Kalymnos уже начата в Printify). Канал
+сменился с Etsy на eBay.de (п.3, п.8.5), поэтому текст ниже — новый, не
+копия старого Etsy-драфта из `listing-copy-drafts.md`. Дизайн-факты
+(Греция, KAL-GG, реальный грейд 6c+, минималистичная линия профиля
+маршрута) взяты из того драфта и не меняются — меняется только формат
+и позиционирование под премиум-бланк AA1301GD (п.8.5).
+
+**Почему на немецком, не на английском:** Etsy-драфты были на английском
+осознанно — площадка Etsy культурно/алгоритмически американская (см.
+п.3). eBay.de — обратная ситуация: немецкоязычная площадка с
+преимущественно немецкой аудиторией, где английский заголовок/описание
+теряет и поисковый ранкинг, и конверсию. Формат ниже — то, как выглядит
+реальный листинг на eBay.de (заголовок ≤80 символов, Artikelmerkmale/
+item specifics, структурированное описание), а не адаптация Etsy-текста.
+
+**Выбранный вариант для старта:** цвет "Verwaschenes Creme" (Faded
+Cream) — этот мокап уже реально загружен в Printify (см. "Прогресс" в
+п.8.5), и это один из дешёвых цветов линейки "Faded" по анализу выше, в
+отличие от дорогого True Black. Если владелец на месте выберет другой
+цвет из линейки Faded — структура текста не меняется, меняются только
+поля "Farbe" и упоминание цвета в описании.
+
+---
+
+**Titel (≤80 Zeichen, факт: 77):**
+Kletter T-Shirt Kalymnos 6c+ Routenlinie Unisex Premium Heavyweight Baumwolle
+
+**Artikelmerkmale (Item Specifics):**
+
+| Merkmal | Wert |
+|---|---|
+| Marke | ROUTELINEWEAR |
+| Farbe | Verwaschenes Creme (Faded Cream) |
+| Material | 100% Baumwolle, garngefärbt (garment-dyed), Heavyweight ~203 g/m² (6 oz) |
+| Passform | Regular / True-to-Size (kein Oversized-Schnitt) |
+| Ärmellänge | Kurzarm |
+| Geschlecht | Unisex |
+| Verschluss | Kein Verschluss |
+| Muster | Motivdruck (Rückenprint) |
+| Anlass | Freizeit, Outdoor, Klettern, Casual |
+| Herstellung | On-Demand-Druck (Print-on-Demand), Blank: American Apparel 1301GD |
+| Größe | S–3XL (Verfügbarkeit je nach Bestand des Anbieters, vor Veröffentlichung in Printify prüfen) |
+| Pflegehinweis | Waschanleitung auf Innenetikett (Standard-Etikett des Herstellers) |
+
+**Beschreibung:**
+
+**ROUTELINEWEAR — Kalymnos, Grad 6c+**
+
+Kein Massenware-Aufdruck, sondern die echte Routenlinie: das Motiv auf
+dem Rücken zeigt das reale Höhenprofil eines Aufstiegs auf Kalymnos
+(Griechenland) — vom Start bis zum Top, mit der tatsächlichen
+Schwierigkeitsgradierung 6c+. Minimalistisch gezeichnet, für Kletterer,
+die ihre Route nicht vergessen.
+
+**Material & Passform**
+Bedruckt auf dem American Apparel 1301GD — einem garngefärbten
+Heavyweight-Tee (ca. 203 g/m² / 6 oz), einem der dichtesten und
+langlebigsten Blanks am Markt. Klassischer, körpernaher Schnitt (kein
+Oversized/Boxy-Fit) — die Größe fällt wie gewohnt aus, kein Hochbestellen
+nötig. Farbe: Verwaschenes Creme, ein gedeckter, premium wirkender Ton
+statt grellem Basic-Weiß.
+
+**Druck & Details**
+Hauptmotiv (Routenlinie Kalymnos) — großflächig auf der Rückseite.
+Kleines ROUTE/LINE-Logo — auf der linken Brust vorne, farblich auf das
+Motiv abgestimmt. Kein doppeltes Branding: Größen-/Pflegeetikett am
+Kragen bleibt ausschließlich funktional.
+
+**Warum kein Billig-Shirt**
+Dieses Shirt ist bewusst nicht auf den niedrigsten Preis, sondern auf
+Stoffqualität und Langlebigkeit ausgelegt (Referenz: Marken wie Black
+Diamond) — deshalb ein höherwertiger Blank statt eines dünnen
+Standard-POD-Shirts, bei vollem Preis-Deckel von 25 €.
+
+**Nicht nur zum Klettern**
+Genauso am Fels wie danach beim Bier mit der Gruppe — das Shirt ist
+Casual-tauglich, kein reines Funktionsteil.
+
+Versand aus der EU-Fertigung (Printify), Lieferzeit siehe eBay-Checkout.
+Fragen zu Größe/Farbe gerne vor dem Kauf per Nachricht.
+
+---
 
 ## 9. Что нужно от владельца (пакетом)
 
