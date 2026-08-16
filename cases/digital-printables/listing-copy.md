@@ -6,14 +6,18 @@
 
 ## 1. Что продаём
 
-Два PDF-товара, чёрно-белый минимализм в стиле бренда ROUTELINEWEAR:
+Три PDF-товара, чёрно-белый минимализм в стиле бренда ROUTELINEWEAR:
 
 | Товар | Формат | Цена |
 |---|---|---|
 | Climbing Send Log & Training Tracker | A4, 2 стр. — таблица восхождений + grade pyramid | €4.99 |
 | Climbing Grade Chart Poster | A3, 1 стр. — все системы грейдов на одном постере | €5.99 |
+| Climbing Printable Bundle (оба товара выше) | 2 PDF-файла в одном листинге | €8.99 |
 
-Файлы: `send-log-printable.pdf`, `grade-chart-poster.pdf` (готовы).
+Файлы: `send-log-printable.pdf`, `grade-chart-poster.pdf` (готовы). Бандл —
+третий листинг поверх тех же двух файлов, никаких новых материалов не
+требуется: себестоимость дополнительного листинга тоже €0, а покупка
+"обоих сразу" поднимает средний чек (AOV) без роста издержек.
 
 ## 2. Откуда берём
 
@@ -35,14 +39,27 @@
 
 ## 5. Юнит-экономика
 
-| | Send Log (€4.99) | Grade Poster (€5.99) |
-|---|---|---|
-| Себестоимость | €0 | €0 |
-| Комиссии Etsy (транзакция+эквайринг+листинг) | ≈€0.70 | ≈€0.82 |
-| **Маржа** | **€4.10-4.29 (~85%)** | **€5.17 (~86%)** |
+| | Send Log (€4.99) | Grade Poster (€5.99) | Bundle (€8.99) |
+|---|---|---|---|
+| Себестоимость | €0 | €0 | €0 |
+| Комиссии Etsy (транзакция+эквайринг+листинг) | ≈€0.70 | ≈€0.82 | ≈€1.18 |
+| **Маржа** | **€4.10-4.29 (~85%)** | **€5.17 (~86%)** | **€7.81 (~87%)** |
 
 Кардинально лучше, чем €0-3 у футболок в кейсе 1 — ноль риска возврата,
 ноль проблем с доставкой.
+
+**Цена и скидка бандла.** €4.99 + €5.99 = €10.98 по отдельности → €8.99 в
+бандле, скидка ≈18%. Число не с потолка: быстрая проверка практики Etsy
+показывает, что для бандлов типично закладывают скидку порядка 15-20% для
+бандла из 2 позиций (у крупных многопредметных бандлов диапазон шире,
+вплоть до 30-50%, но это не наш случай — у нас всего 2 файла), и что
+продавцы часто целят в "красивую" цену (€8.99), а не в произвольный
+процент. 18% укладывается в эту практику и оставляет цену бандла заметно
+выше цены любого товара по отдельности (не обесценивает Grade Poster).
+Комиссия Etsy на бандл посчитана по той же модели, что и у двух других
+товаров (≈12% от цены + ≈€0.10 фикс.), маржа остаётся на уровне ~87% —
+бандл не проигрывает по марже, а по AOV — выигрывает: покупатель, который
+и так купил бы один товар, теперь имеет причину сразу взять оба.
 
 ## 6. Продвижение
 
@@ -63,10 +80,17 @@
 есть **€0-15/мес**. Вырастет вместе с трафиком кейса 1, не отдельно от
 него.
 
-## 9. Что нужно от владельца (10-15 минут, бесплатно)
-1. Создать 2 листинга типа "digital download" в существующем Etsy-магазине
-2. Загрузить `send-log-printable.pdf` и `grade-chart-poster.pdf`
-3. Вставить готовые тексты ниже
+## 9. Что нужно от владельца (15-20 минут, бесплатно)
+1. Создать 3 листинга типа "digital download" в существующем Etsy-магазине
+2. Для первых двух — загрузить `send-log-printable.pdf` и
+   `grade-chart-poster.pdf`
+3. Для третьего (Bundle) — новых файлов грузить не нужно: это тот же
+   `send-log-printable.pdf` + `grade-chart-poster.pdf`, добавленные в один
+   листинг как два файла на скачивание; фото/картинку для листинга можно
+   взять из уже загруженных на первые два листинга (Etsy позволяет
+   использовать те же изображения повторно, ничего нового рисовать не
+   нужно)
+4. Вставить готовые тексты ниже (для всех трёх листингов)
 
 ## Тексты листингов (готовы к вставке)
 
@@ -100,3 +124,18 @@ chart, climbing wall art, grade conversion chart, climbing decor, V-scale
 font chart, climbing gift digital, rock climbing print, minimalist
 climbing poster, sport climbing chart, climbing reference print, gym wall
 decor
+
+### Climbing Printable Bundle
+**Заголовок:** Climbing Printable Bundle | Send Log & Training Tracker +
+Grade Chart Poster | Rock Climbing Gift Set | Instant Download PDF Save 18%
+
+**Первый абзац:** "Everything a climber needs, bundled and discounted. Get
+the Climbing Send Log & Training Tracker (log every route, watch your
+grade pyramid grow) together with the Climbing Grade Chart Poster (every
+major grading system, one clean chart) — for 18% less than buying them
+separately. Two instant PDF downloads, print at home or fill in digitally."
+
+**13 тегов:** climbing bundle, climbing gift set, climbing pdf bundle,
+rock climbing bundle, bouldering bundle, climbing printable set, grade
+chart bundle, send log bundle, climbing digital set, climber gift bundle,
+training tracker set, instant download deal, climbing value bundle
