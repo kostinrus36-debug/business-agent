@@ -10,7 +10,8 @@
 Один мини-сайт "Klettern Hub" из двух связанных частей:
 - **Контент-сайт (кейс 3)** — справочные статьи о скалолазании на немецком
   для DACH-аудитории: "Kletter-Schwierigkeitsgrade erklärt" (готова),
-  "Boulder-Grade: V-Scale vs. Fontainebleau erklärt" (готова).
+  "Boulder-Grade: V-Scale vs. Fontainebleau erklärt" (готова),
+  "Erste Kletterhalle: was Anfänger wissen müssen" (готова).
 - **Инструмент (кейс 4)** — рабочий автономный конвертер грейдов
   (French/YDS/UIAA/British/Ewbank + V-Scale/Fontainebleau), без сервера,
   без базы данных.
@@ -94,6 +95,6 @@ GitHub-репозиторий) — только включить GitHub Pages в
 ## Ключевые слова для будущих статей
 1. Kletter-Schwierigkeitsgrade erklärt — статья №1, готова
 2. Boulder-Grade V-Scale vs Fontainebleau erklärt — статья №2, готова
-3. Erste Kletterhalle: was Anfänger wissen müssen
+3. Erste Kletterhalle: was Anfänger wissen müssen — статья №3, готова
 4. Fingertraining für Kletterer ohne Kletterwand (Home-Training)
 5. Geschenkideen für Kletterer — cross-sell зона для кейсов 1-2
