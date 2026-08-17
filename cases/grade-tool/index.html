@@ -7,90 +7,146 @@
 <meta name="description" content="Free climbing grade converter for sport, trad and bouldering grades: French, YDS, UIAA, British trad/tech, Ewbank, V-Scale, Fontainebleau.">
 <style>
   :root {
-    --bg: #fafafa; --fg: #1a1a1a; --line: #1a1a1a; --muted: #666;
-    --accent: #1a1a1a;
+    --bg: #f6f2ec; --surface: #fffdfa; --fg: #221d17; --muted: #7a7166;
+    --line: #e7ddcf; --accent: #b6512f; --accent-soft: #f3e2d3;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #111; --fg: #eee; --line: #eee; --muted: #999; }
+    :root {
+      --bg: #17130f; --surface: #201a14; --fg: #f3ede3; --muted: #a9998a;
+      --line: #352c22; --accent: #e2774d; --accent-soft: #3a2419;
+    }
   }
   * { box-sizing: border-box; }
   body {
     background: var(--bg); color: var(--fg);
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    max-width: 720px; margin: 0 auto; padding: 32px 20px 80px;
+    font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    max-width: 880px; margin: 0 auto; padding: 0 20px 80px;
   }
+  header {
+    display: flex; align-items: center; gap: 10px;
+    padding: 22px 0; border-bottom: 1px solid var(--line); margin-bottom: 40px;
+  }
+  header svg { flex: none; }
+  .wordmark { font-weight: 700; font-size: 1.05rem; letter-spacing: -0.02em; }
+
+  .badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--accent-soft); color: var(--accent);
+    font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
+    padding: 6px 12px; border-radius: 100px; margin-bottom: 20px;
+  }
+  .badge::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+
   h1 {
-    font-size: 1.4rem; text-transform: uppercase; letter-spacing: 2px;
-    border-bottom: 3px solid var(--line); padding-bottom: 12px; margin-bottom: 4px;
+    font-family: Georgia, 'Times New Roman', serif; font-weight: 700;
+    font-size: 2.6rem; line-height: 1.08; letter-spacing: -0.01em;
+    margin: 0 0 14px; max-width: 14ch;
   }
-  .tagline { color: var(--muted); font-size: 0.85rem; margin-bottom: 28px; }
-  .tabs { display: flex; gap: 8px; margin-bottom: 20px; }
-  .tab {
-    flex: 1; padding: 10px; text-align: center; border: 1.5px solid var(--line);
-    cursor: pointer; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 1px;
-    background: transparent; color: var(--fg);
+  .tagline { color: var(--muted); font-size: 1.05rem; line-height: 1.5; max-width: 52ch; margin-bottom: 44px; }
+
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 620px) { .grid { grid-template-columns: 1fr; } }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 16px;
+    padding: 24px; box-shadow: 0 1px 2px rgba(0,0,0,0.03);
   }
-  .tab.active { background: var(--accent); color: var(--bg); }
-  .panel { display: none; }
-  .panel.active { display: block; }
+  .card-head { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+  .icon {
+    width: 40px; height: 40px; border-radius: 10px; background: var(--accent-soft);
+    color: var(--accent); display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 1.1rem; flex: none;
+  }
+  .card-title { font-weight: 700; font-size: 1.05rem; margin: 0; }
+  .card-sub { color: var(--muted); font-size: 0.82rem; margin: 2px 0 0; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+  .chip {
+    font-size: 0.7rem; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase;
+    color: var(--muted); background: var(--bg); border: 1px solid var(--line);
+    padding: 4px 9px; border-radius: 100px;
+  }
+
   select {
-    width: 100%; padding: 12px; font-size: 1rem; border: 1.5px solid var(--line);
-    background: var(--bg); color: var(--fg); margin-bottom: 20px;
+    width: 100%; padding: 12px 14px; font-size: 0.95rem; border-radius: 10px;
+    border: 1px solid var(--line); background: var(--bg); color: var(--fg); margin-bottom: 16px;
   }
-  .result-grid {
-    display: grid; grid-template-columns: 1fr 1fr; gap: 1px;
-    background: var(--line); border: 1.5px solid var(--line);
-  }
+
+  .result-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
   .result-cell {
-    background: var(--bg); padding: 14px;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px;
   }
-  .result-cell .sys { font-size: 0.7rem; text-transform: uppercase; color: var(--muted); letter-spacing: 1px; }
-  .result-cell .val { font-size: 1.3rem; font-weight: bold; margin-top: 4px; }
-  .note {
-    margin-top: 24px; font-size: 0.8rem; color: var(--muted); line-height: 1.5;
-  }
+  .result-cell .sys { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+  .result-cell .val { font-size: 1.25rem; font-weight: 700; margin-top: 2px; font-variant-numeric: tabular-nums; }
+
+  .note { margin-top: 18px; font-size: 0.78rem; color: var(--muted); line-height: 1.55; }
+
   footer {
-    margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--muted);
-    font-size: 0.75rem; color: var(--muted); text-align: center;
+    margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line);
+    font-size: 0.8rem; color: var(--muted); text-align: center;
   }
-  footer a { color: var(--fg); }
+  footer a { color: var(--accent); text-decoration: none; font-weight: 600; }
+  footer a:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
 
-<h1>Climbing Grade Converter</h1>
-<div class="tagline">Sport, trad &amp; bouldering grades across every major system</div>
+<header>
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+    <path d="M2 19L9 6L13 13L16 8L22 19H2Z" fill="var(--accent)"/>
+  </svg>
+  <span class="wordmark">Klettergrade</span>
+</header>
 
-<div class="tabs">
-  <button class="tab active" data-panel="route">Route (Sport/Trad)</button>
-  <button class="tab" data-panel="boulder">Boulder</button>
-</div>
+<div class="badge">Free &middot; No sign-up</div>
+<h1>Convert any climbing grade.</h1>
+<div class="tagline">French, YDS, UIAA, British and Ewbank for routes &mdash; V-Scale and Fontainebleau for boulders. Pick the grade you know, read the rest instantly.</div>
 
-<div class="panel active" id="route">
-  <select id="routeSelect"></select>
-  <div class="result-grid" id="routeResult"></div>
-  <div class="note">
-    Route grades converted across French, YDS (US), UIAA, British tech/adj
-    (trad), and Ewbank (AU/NZ). Grading systems were developed independently
-    for different climbing styles and regions, so conversions are reliable
-    to roughly half a grade in the middle of the scale, tighter at the
-    extremes.
+<div class="grid">
+  <div class="card" id="route">
+    <div class="card-head">
+      <div class="icon">R</div>
+      <div>
+        <p class="card-title">Sport &amp; trad routes</p>
+        <p class="card-sub">Roped climbing, lead &amp; top-rope</p>
+      </div>
+    </div>
+    <div class="chips">
+      <span class="chip">French</span><span class="chip">YDS</span>
+      <span class="chip">UIAA</span><span class="chip">British</span><span class="chip">Ewbank</span>
+    </div>
+    <select id="routeSelect"></select>
+    <div class="result-grid" id="routeResult"></div>
+    <div class="note">
+      Grading systems were developed independently for different climbing
+      styles and regions, so conversions are reliable to roughly half a
+      grade in the middle of the scale, tighter at the extremes.
+    </div>
   </div>
-</div>
 
-<div class="panel" id="boulder">
-  <select id="boulderSelect"></select>
-  <div class="result-grid" id="boulderResult"></div>
-  <div class="note">
-    Boulder grades converted between V-Scale (US) and Fontainebleau/Font
-    (Europe). Like route grades, these are approximate equivalents, not an
-    exact mathematical mapping.
+  <div class="card" id="boulder">
+    <div class="card-head">
+      <div class="icon">B</div>
+      <div>
+        <p class="card-title">Bouldering</p>
+        <p class="card-sub">Problems &amp; highballs</p>
+      </div>
+    </div>
+    <div class="chips">
+      <span class="chip">V-Scale</span><span class="chip">Font</span>
+    </div>
+    <select id="boulderSelect"></select>
+    <div class="result-grid" id="boulderResult"></div>
+    <div class="note">
+      V-Scale (US) and Fontainebleau/Font (Europe) &mdash; approximate
+      equivalents, not an exact mathematical mapping.
+    </div>
   </div>
 </div>
 
 <footer>
   A free tool by <a href="https://www.etsy.com/shop/ROUTELINEWEAR?utm_source=gradetool&amp;utm_medium=footer&amp;utm_campaign=climbing_hub" target="_blank" rel="noopener">ROUTELINEWEAR</a>
-  — minimalist route-line climbing shirts &amp; printables.
+  &mdash; minimalist route-line climbing shirts &amp; printables.
 </footer>
 
 <script>
@@ -183,15 +239,6 @@ boulderSelect.addEventListener("change", e => renderBoulder(e.target.value));
 
 renderRoute(0);    // default: matches select's default selected option (French 4a)
 renderBoulder(0);  // default: matches select's default selected option (V-Scale VB)
-
-document.querySelectorAll(".tab").forEach(tab => {
-  tab.addEventListener("click", () => {
-    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
-    document.querySelectorAll(".panel").forEach(p => p.classList.remove("active"));
-    tab.classList.add("active");
-    document.getElementById(tab.dataset.panel).classList.add("active");
-  });
-});
 </script>
 
 </body>
