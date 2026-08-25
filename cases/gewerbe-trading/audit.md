@@ -410,6 +410,183 @@ Fragen zu Größe/Farbe gerne vor dem Kauf per Nachricht.
 
 ---
 
+## eBay-Listing-Text (Siurana, Arco, Thailand, Route Line) — 2026-08-25
+
+Продолжение серии, тот же формат, что Kalymnos выше (немецкий язык,
+позиционирование AA1301GD-премиум, лого brend.png на груди в цвете
+чернил дизайна). Для Siurana/Arco/Thailand точный грейд маршрута не
+прочитать из этой сессии (нет доступа к файлам дизайна) — оставлен
+плейсхолдер `[ГРЕЙД]`, владелец подставляет точное число с самого
+принта перед публикацией (та же оговорка, что уже стояла в п.6 для
+старого Etsy-драфта). Route Line — грейд уже зафиксирован как 7b (п.1).
+Цвет футболки для каждого — из линейки "Faded" (см. рекомендацию п.8.5,
+не True Black), цвет чернил — один из 7 уже готовых файлов
+`brend_{blau,blak,oliva,grey,cheri,milk,elou}.png`, владелец подбирает
+итоговую пару цветов в редакторе Printify по факту готовых мокапов.
+
+### Siurana, El Pati (Испания)
+
+**Titel (≤80 Zeichen):**
+Kletter T-Shirt Siurana El Pati [ГРЕЙД] Routenlinie Unisex Premium Heavyweight
+
+**Artikelmerkmale:** идентично Kalymnos (Marke ROUTELINEWEAR, Material
+100% Baumwolle garngefärbt Heavyweight ~203g/m², Passform Regular,
+Unisex, On-Demand-Druck AA1301GD), кроме:
+- Farbe: [владелец выбирает Faded-цвет в Printify под мокап]
+- Größe: S–3XL (проверить наличие в Printify перед публикацией)
+
+**Beschreibung:**
+
+**ROUTELINEWEAR — Siurana, El Pati**
+
+Kein Massenware-Aufdruck, sondern die echte Routenlinie: das Motiv auf
+dem Rücken zeigt das reale Höhenprofil eines Aufstiegs im El Pati-Sektor
+von Siurana (Spanien) — einem der bekanntesten Kalksteingebiete Europas
+— mit der tatsächlichen Schwierigkeitsgradierung [ГРЕЙД]. Minimalistisch
+gezeichnet, für Kletterer, die ihre Route nicht vergessen.
+
+**Material & Passform**
+Bedruckt auf dem American Apparel 1301GD — einem garngefärbten
+Heavyweight-Tee (ca. 203 g/m² / 6 oz). Klassischer, körpernaher Schnitt
+(kein Oversized/Boxy-Fit) — die Größe fällt wie gewohnt aus.
+
+**Druck & Details**
+Hauptmotiv (Routenlinie Siurana) — großflächig auf der Rückseite.
+Kleines ROUTE/LINE-Logo — auf der linken Brust vorne, farblich auf das
+Motiv abgestimmt.
+
+**Warum kein Billig-Shirt**
+Bewusst auf Stoffqualität und Langlebigkeit ausgelegt (Referenz: Marken
+wie Black Diamond) statt auf den niedrigsten Preis — höherwertiger Blank
+statt dünnem Standard-POD-Shirt, bei vollem Preis-Deckel von 25 €.
+
+**Nicht nur zum Klettern**
+Genauso am Fels wie danach beim Bier mit der Gruppe — Casual-tauglich.
+
+Versand aus der EU-Fertigung (Printify), Lieferzeit siehe eBay-Checkout.
+Fragen zu Größe/Farbe gerne vor dem Kauf per Nachricht.
+
+**Kategorie eBay:** Kleidung > Herren/Damen T-Shirts
+
+### Arco (Италия)
+
+**Titel (≤80 Zeichen):**
+Kletter T-Shirt Arco Italien [ГРЕЙД] Routenlinie Unisex Premium Heavyweight
+
+**Artikelmerkmale:** идентично Kalymnos, кроме Farbe (Faded-цвет по
+выбору владельца) и Größe (проверить наличие).
+
+**Beschreibung:**
+
+**ROUTELINEWEAR — Arco**
+
+Kein Massenware-Aufdruck, sondern die echte Routenlinie: das Motiv auf
+dem Rücken zeigt das reale Höhenprofil eines Aufstiegs bei Arco
+(Italien) — einem der Ursprungsorte des modernen Sportkletterns — mit
+der tatsächlichen Schwierigkeitsgradierung [ГРЕЙД]. Minimalistisch
+gezeichnet, für Kletterer, die ihre Route nicht vergessen.
+
+**Material & Passform**
+Bedruckt auf dem American Apparel 1301GD — einem garngefärbten
+Heavyweight-Tee (ca. 203 g/m² / 6 oz). Klassischer, körpernaher Schnitt.
+
+**Druck & Details**
+Hauptmotiv (Routenlinie Arco) — großflächig auf der Rückseite. Kleines
+ROUTE/LINE-Logo — auf der linken Brust vorne, farblich auf das Motiv
+abgestimmt.
+
+**Warum kein Billig-Shirt**
+Bewusst auf Stoffqualität und Langlebigkeit ausgelegt (Referenz: Marken
+wie Black Diamond) statt auf den niedrigsten Preis, bei vollem
+Preis-Deckel von 25 €.
+
+**Nicht nur zum Klettern**
+Genauso am Fels wie danach beim Bier mit der Gruppe — Casual-tauglich.
+
+Versand aus der EU-Fertigung (Printify), Lieferzeit siehe eBay-Checkout.
+Fragen zu Größe/Farbe gerne vor dem Kauf per Nachricht.
+
+**Kategorie eBay:** Kleidung > Herren/Damen T-Shirts
+
+### Thailand (Railay/Ton Sai)
+
+**Titel (≤80 Zeichen):**
+Kletter T-Shirt Railay Thailand [ГРЕЙД] Routenlinie Unisex Premium Heavyweight
+
+**Artikelmerkmale:** идентично Kalymnos, кроме Farbe (Faded-цвет по
+выбору владельца) и Größe (проверить наличие).
+
+**Beschreibung:**
+
+**ROUTELINEWEAR — Railay, Thailand**
+
+Kein Massenware-Aufdruck, sondern die echte Routenlinie: das Motiv auf
+dem Rücken zeigt das reale Höhenprofil eines Aufstiegs bei Railay/Ton
+Sai (Thailand) — Kalkstein direkt über dem Meer — mit der tatsächlichen
+Schwierigkeitsgradierung [ГРЕЙД]. Minimalistisch gezeichnet, für
+Kletterer, die ihre Route nicht vergessen.
+
+**Material & Passform**
+Bedruckt auf dem American Apparel 1301GD — einem garngefärbten
+Heavyweight-Tee (ca. 203 g/m² / 6 oz). Klassischer, körpernaher Schnitt.
+
+**Druck & Details**
+Hauptmotiv (Routenlinie Railay) — großflächig auf der Rückseite. Kleines
+ROUTE/LINE-Logo — auf der linken Brust vorne, farblich auf das Motiv
+abgestimmt.
+
+**Warum kein Billig-Shirt**
+Bewusst auf Stoffqualität und Langlebigkeit ausgelegt (Referenz: Marken
+wie Black Diamond) statt auf den niedrigsten Preis, bei vollem
+Preis-Deckel von 25 €.
+
+**Nicht nur zum Klettern**
+Genauso am Fels wie danach beim Bier mit der Gruppe — Casual-tauglich.
+
+Versand aus der EU-Fertigung (Printify), Lieferzeit siehe eBay-Checkout.
+Fragen zu Größe/Farbe gerne vor dem Kauf per Nachricht.
+
+**Kategorie eBay:** Kleidung > Herren/Damen T-Shirts
+
+### Route Line (7b, topografische Textur)
+
+**Titel (≤80 Zeichen):**
+Kletter T-Shirt Route Line 7b Topografie Unisex Premium Heavyweight Baumwolle
+
+**Artikelmerkmale:** идентично Kalymnos (грейд уже известен — 7b), кроме
+Farbe (Faded-цвет по выбору владельца) и Größe (проверить наличие).
+
+**Beschreibung:**
+
+**ROUTELINEWEAR — Route Line, 7b**
+
+Anders als die ortsgebundenen Motive der übrigen Serie: keine
+bestimmte Kletterhalle oder Region, sondern eine topografische Textur
+in Reinform — abstrahierte Routenlinie mit Schwierigkeitsgrad 7b, für
+alle, die die Ästhetik der Linie selbst mögen, unabhängig vom Ort.
+
+**Material & Passform**
+Bedruckt auf dem American Apparel 1301GD — einem garngefärbten
+Heavyweight-Tee (ca. 203 g/m² / 6 oz). Klassischer, körpernaher Schnitt.
+
+**Druck & Details**
+Hauptmotiv (topografische Routenlinie, 7b) — großflächig auf der
+Rückseite. Kleines ROUTE/LINE-Logo — auf der linken Brust vorne,
+farblich auf das Motiv abgestimmt.
+
+**Warum kein Billig-Shirt**
+Bewusst auf Stoffqualität und Langlebigkeit ausgelegt (Referenz: Marken
+wie Black Diamond) statt auf den niedrigsten Preis, bei vollem
+Preis-Deckel von 25 €.
+
+**Nicht nur zum Klettern**
+Genauso am Fels wie danach beim Bier mit der Gruppe — Casual-tauglich.
+
+Versand aus der EU-Fertigung (Printify), Lieferzeit siehe eBay-Checkout.
+Fragen zu Größe/Farbe gerne vor dem Kauf per Nachricht.
+
+**Kategorie eBay:** Kleidung > Herren/Damen T-Shirts
+
 ## 9. Что нужно от владельца (пакетом)
 
 Канал сменился на Printify/eBay (п.3, п.8.5) — это активный трек. Etsy/
@@ -429,8 +606,11 @@ Printful не закрыт, но на паузе ("пусть курит"), по
    Artikelmerkmale, описание — см. "eBay-Listing-Text (Kalymnos)" выше) и
    опубликовать в eBay-магазин.
 3. **Повторить для остальных 4 дизайнов** (Siurana, Arco, Thailand, Route
-   Line) — тот же процесс, разные файлы/грейды/цвета логотипа (см.
-   "Цветовая логика лого/принта" выше).
+   Line) — тексты уже готовы (см. "eBay-Listing-Text (Siurana, Arco,
+   Thailand, Route Line)" выше, добавлено 2026-08-25), осталось: вставить
+   точный грейд с файла дизайна для Siurana/Arco/Thailand (Route Line —
+   уже 7b), выбрать Faded-цвет футболки в Printify под готовый мокап,
+   загрузить дизайн/лого нужного цвета чернил, опубликовать.
 
 **Отложенный трек — Etsy/Printful (не срочно, только если решим вернуться):**
 4. Обновлённые файлы дизайна для Printful готовы в

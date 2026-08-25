@@ -172,6 +172,33 @@ JS-рендеринга и/или входа для показа цены/ост
    один и тот же внешний URL (п.1/п.4) мог оказаться и WiFi-, и
    базовой моделью одновременно.
 
+## 6. Новый кандидат (2026-08-25) — не электроника, можно опубликовать раньше остальных
+
+Мандат владельца (2026-08-21, plan.md) — регулярно искать бестселлеры.
+Веб-поиск (2026-08-25) по трендам pet-дропшиппинга 2026 называет
+**лизательные/снаффл-маты (lick mats / snuffle mats), охлаждающие
+коврики, очистители лап (paw cleaner cups)** среди топ-бестселлеров —
+не с одного сайта, тот же набор независимо повторяют Zendrop и
+Dropified. Источники: [zendrop.com](https://www.zendrop.com/blog/dropshipping-pet-products/),
+[dropified.com](https://www.dropified.com/blog/best-pet-products-to-dropship-in-2026-15-items-pet-owners-are-buying-right-now/).
+
+**Почему это стратегически интереснее просто "ещё один товар":** 3 из
+текущих 5 товаров — электроника (WiFi-кормушка, кормушка с камерой,
+поилка-помпа) и упираются в WEEE-регистрацию, которая ещё не начата
+(`registration-followups.md`). **Лизательный коврик и очиститель лап —
+не электроника**, не требуют WEEE/Batterie-Register, только LUCID
+(упаковка, п.1 пакета одобрения в PORTFOLIO.md) — то есть теоретически
+могут быть опубликованы раньше остальных, сразу после LUCID, не
+дожидаясь WEEE.
+
+**Добавить в шаг поиска внутри дашборда CJ** (тот же процесс, что для
+остальных 5 — см. "Что нужно сделать внутри дашборда CJ" выше): искать
+"pet lick mat", "dog snuffle mat", "pet paw cleaner cup" с фильтром
+Ship From: Europe, подтвердить цену/склад так же, как для остальных
+позиций. Внешне (WebSearch/WebFetch) конкретный CJ SKU не проверить —
+тот же блок домена, что и для остальных 5 категорий (см. "Важная
+оговорка про метод" в начале файла).
+
 ## Источники
 - https://cjdropshipping.com/product/automatic-pet-feeder-smart-food-dispenser-for-cats-dogs-timer-stainless-steel-bowl-auto-dog-cat-pet-feeding-pets-supplies-p-1602564551227224064.html (не открывается напрямую, только заголовок из индекса Google)
 - https://cjdropshipping.com/product/pet-cat-dog-stainless-steel-automatic-circulation-water-dispenser-intelligent-fountain-pets-accessories-p-1651788214971146240.html (не открывается напрямую, только заголовок из индекса Google)
