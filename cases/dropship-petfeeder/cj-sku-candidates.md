@@ -199,6 +199,20 @@ Ship From: Europe, подтвердить цену/склад так же, ка�
 тот же блок домена, что и для остальных 5 категорий (см. "Важная
 оговорка про метод" в начале файла).
 
+**Перепроверено 2026-08-28 (2 доп. независимых источника):**
+[explodingtopics.com](https://explodingtopics.com/blog/pet-products) и
+[sellthetrend.com](https://www.sellthetrend.com/niche/pet-products)
+независимо подтверждают тот же набор бестселлеров — lick mats/snuffle
+mats и paw cleaners снова в топе, плюс **dog cooling mats** и **soft pet
+blankets** как ещё два не-электронных кандидата (без WEEE), и
+подтверждение, что автоматические **cat water fountains** (уже
+категория №2 в plan.md) по-прежнему в топе спроса 2026 — итого 4
+независимых источника за 2 прогона на один и тот же вывод, не
+единичное совпадение. Если lick mat/paw cleaner не найдутся в CJ с
+EU-складом — dog cooling mat и pet blanket теперь запасные
+не-электронные кандидаты той же стратегической ценности (обходят
+WEEE, можно публиковать сразу после LUCID).
+
 ## Источники
 - https://cjdropshipping.com/product/automatic-pet-feeder-smart-food-dispenser-for-cats-dogs-timer-stainless-steel-bowl-auto-dog-cat-pet-feeding-pets-supplies-p-1602564551227224064.html (не открывается напрямую, только заголовок из индекса Google)
 - https://cjdropshipping.com/product/pet-cat-dog-stainless-steel-automatic-circulation-water-dispenser-intelligent-fountain-pets-accessories-p-1651788214971146240.html (не открывается напрямую, только заголовок из индекса Google)
