@@ -105,14 +105,69 @@ verheddern — ideal für Spaziergänge, Joggen oder mit dem Hundesitter.
 
 **Категория:** Haustierbedarf > Hunde > Leinen & Halsbänder
 
-## Общие настройки для всех 5 листингов
+## 6. Schleck-Matte / Snuffle-Matte (нет электроники, обходит WEEE — 2026-08-31)
+**Зачем именно эти тексты сейчас:** кандидат из cj-sku-candidates.md п.6,
+подтверждён 4 независимыми источниками за 3 прогона подряд. В отличие от
+товаров 1-4 не требует WEEE-регистрации (registration-followups.md) —
+если SKU найдётся в CJ с EU-складом раньше остальных, это может стать
+первым реально опубликованным товаром PawStay. Точная цена/SKU — после
+подбора владельцем в дашборде CJ (см. cj-sku-candidates.md), текст ниже
+готов к вставке с плейсхолдером цены по рыночной вилке (конкуренты
+eBay.de/Amazon.de на снаффл-маты — €9.99-16.99).
+
+**Заголовок (80 симв.):** Schleck Matte Hund Katze Snuffle Mat
+rutschfest Anti Angst Napf
+
+**Цена:** €12.99 (плейсхолдер — уточнить после закупочной цены CJ, целевая
+маржа ~30% как у остальных товаров кейса)
+
+**Описание:**
+"Langsamer fressen, weniger Stress, mehr Beschäftigung. Die Schleck-Matte
+nutzt den natürlichen Schnüffel-Instinkt: Leckerli oder Nassfutter wird in
+die Silikonnoppen gestrichen, dein Haustier muss sich die Belohnung
+erschlecken statt sie in Sekunden zu verschlingen — ideal gegen zu
+schnelles Fressen, Langeweile oder leichte Trennungsangst.
+
+**Eigenschaften:**
+- Lebensmittelechtes Silikon, spülmaschinenfest
+- Rutschfeste Saugnäpfe auf der Unterseite
+- Für Hunde und Katzen geeignet
+- Versand aus EU-Lager — Lieferzeit 2-5 Werktage"
+
+**Категория:** Haustierbedarf > Hunde/Katzen > Näpfe & Fressmatten
+
+## 7. Pfotenreiniger-Becher (нет электроники, обходит WEEE — 2026-08-31)
+**Заголовок (80 симв.):** Pfotenreiniger Becher Hund Katze Silikon
+tragbar für unterwegs
+
+**Цена:** €9.99 (плейсхолдер — уточнить после закупочной цены CJ)
+
+**Описание:**
+"Saubere Pfoten nach jedem Spaziergang, ohne Sauerei. Pfote rein, drehen,
+fertig — die Silikonborsten lösen Schmutz und Matsch, ohne dass du dich
+bücken oder ein nasses Handtuch suchen musst. Praktisch für draußen,
+Auto oder direkt an der Wohnungstür.
+
+**Eigenschaften:**
+- Weiche Silikonborsten, hautschonend
+- Kompakte Größe, passt in Rucksack/Auto
+- Einfach zu reinigen
+- Versand aus EU-Lager — Lieferzeit 2-5 Werktage"
+
+**Категория:** Haustierbedarf > Hunde/Katzen > Pflege & Hygiene
+
+## Общие настройки для всех 5(+2) листингов
 - Versandart: DHL/DPD/GLS (через CJ), kostenloser Versand (заложен в цену)
 - Rückgabe: 30 Tage (стандарт eBay для новых продавцов, повышает доверие)
 - Zustand: Neu
 - Bezahlung: eBay Managed Payments (автоматически при регистрации
   gewerblich-аккаунта)
 
-## Порядок публикации (рекомендация)
-Начать с товара 1 (флагман, самый проверенный спрос) — если пойдут первые
-продажи/отзывы, публиковать 2 и 5 (дешёвые, быстрый оборот, кросс-селл),
+## Порядок публикации (рекомендация, обновлено 2026-08-31)
+**Если товары 6/7 (снаффл-мат, очиститель лап) найдутся в CJ первыми** —
+публиковать их раньше остальных: не требуют WEEE, только LUCID (уже в
+пакете одобрения), значит физически могут стать первой реальной продажей
+PawStay быстрее, чем электроника 1-4. Если WEEE тем временем тоже
+закрыт — порядок как раньше: начать с товара 1 (флагман, самый
+проверенный спрос), затем 2 и 5 (дешёвые, быстрый оборот, кросс-селл),
 затем 3 и 4 (крайние ценовые сегменты, когда уже есть история продавца).

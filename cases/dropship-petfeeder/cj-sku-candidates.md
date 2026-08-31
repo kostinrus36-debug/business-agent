@@ -213,6 +213,11 @@ EU-складом — dog cooling mat и pet blanket теперь запасны
 не-электронные кандидаты той же стратегической ценности (обходят
 WEEE, можно публиковать сразу после LUCID).
 
+**2026-08-31:** eBay.de-тексты для обоих кандидатов (Schleck-Matte,
+Pfotenreiniger-Becher) готовы заранее — см. `ebay-listings.md`, п.6-7 —
+чтобы публикация не ждала ещё и написания текста после того, как SKU
+найдётся в дашборде CJ.
+
 ## Источники
 - https://cjdropshipping.com/product/automatic-pet-feeder-smart-food-dispenser-for-cats-dogs-timer-stainless-steel-bowl-auto-dog-cat-pet-feeding-pets-supplies-p-1602564551227224064.html (не открывается напрямую, только заголовок из индекса Google)
 - https://cjdropshipping.com/product/pet-cat-dog-stainless-steel-automatic-circulation-water-dispenser-intelligent-fountain-pets-accessories-p-1651788214971146240.html (не открывается напрямую, только заголовок из индекса Google)
