@@ -156,18 +156,62 @@ Auto oder direkt an der Wohnungstür.
 
 **Категория:** Haustierbedarf > Hunde/Katzen > Pflege & Hygiene
 
-## Общие настройки для всех 5(+2) листингов
+## 8. Kühlmatte für Haustiere (нет электроники, обходит WEEE — 2026-09-07)
+**Зачем именно сейчас:** завершает набор из 5 не-электронных товаров для
+MVP-запуска фазы 1 (см. `plan.md`, п.1, пивот 2026-09-07) — с этим текстом
+у кейса готовы описания на все 5 товаров первой фазы, не хватает только
+подбора SKU в дашборде CJ.
+
+**Заголовок (80 симв.):** Kühlmatte Hund Katze selbstkühlend ohne Strom
+Sommer Matte
+
+**Цена:** €18.99 (плейсхолдер — уточнить после закупочной цены CJ,
+целевая маржа ~30%)
+
+**Описание:**
+"Angenehme Kühlung an heißen Tagen — ganz ohne Strom oder Kühlschrank.
+Die Matte aktiviert sich durch simplen Körperdruck und kühlt sofort,
+ideal für kurzhaarige Rassen, nach dem Spaziergang oder im Auto.
+
+**Eigenschaften:**
+- Selbstkühlend durch Gel-Technologie, kein Strom/Kühlschrank nötig
+- Rutschfeste Unterseite, robustes Material
+- Einfach abwischbar
+- Versand aus EU-Lager — Lieferzeit 2-5 Werktage"
+
+**Категория:** Haustierbedarf > Hunde/Katzen > Decken & Matten
+
+## 9. Kuscheldecke für Haustiere (нет электроники, обходит WEEE — 2026-09-07)
+**Заголовок (80 симв.):** Kuscheldecke Hund Katze weich waschbar
+rutschfest Haustierdecke
+
+**Цена:** €14.99 (плейсхолдер — уточнить после закупочной цены CJ)
+
+**Описание:**
+"Ein weicher Rückzugsort für dein Haustier — auf dem Sofa, im Körbchen
+oder im Auto. Flauschiges, waschmaschinenfestes Material, das auch nach
+vielen Wäschen kuschelig bleibt.
+
+**Eigenschaften:**
+- Weiches Flanell/Fleece-Material
+- Waschmaschinenfest bis 30°C
+- Verschiedene Größen für kleine bis große Haustiere
+- Versand aus EU-Lager — Lieferzeit 2-5 Werktage"
+
+**Категория:** Haustierbedarf > Hunde/Katzen > Decken & Matten
+
+## Общие настройки для всех 9 листингов
 - Versandart: DHL/DPD/GLS (через CJ), kostenloser Versand (заложен в цену)
 - Rückgabe: 30 Tage (стандарт eBay для новых продавцов, повышает доверие)
 - Zustand: Neu
 - Bezahlung: eBay Managed Payments (автоматически при регистрации
   gewerblich-аккаунта)
 
-## Порядок публикации (рекомендация, обновлено 2026-08-31)
-**Если товары 6/7 (снаффл-мат, очиститель лап) найдутся в CJ первыми** —
-публиковать их раньше остальных: не требуют WEEE, только LUCID (уже в
-пакете одобрения), значит физически могут стать первой реальной продажей
-PawStay быстрее, чем электроника 1-4. Если WEEE тем временем тоже
-закрыт — порядок как раньше: начать с товара 1 (флагман, самый
-проверенный спрос), затем 2 и 5 (дешёвые, быстрый оборот, кросс-селл),
-затем 3 и 4 (крайние ценовые сегменты, когда уже есть история продавца).
+## Порядок публикации (обновлено 2026-09-07 — MVP-пивот)
+Кейс запускается фазой 1 = товары **5, 6, 7, 8, 9** (поводок,
+снаффл-мат, очиститель лап, охлаждающий коврик, плед) — все не-электронные,
+не требуют WEEE, только LUCID (уже в пакете одобрения, п.1 PORTFOLIO.md).
+Товары 1-4 (WiFi-кормушка, поилка, камера-кормушка, таймер-кормушка) —
+фаза 2, публикуются только после того, как WEEE закрыт (см.
+`registration-followups.md`). Внутри фазы 1 порядок не критичен — все 5
+в одном ценовом/рисковом классе, публиковать по мере готовности SKU в CJ.
