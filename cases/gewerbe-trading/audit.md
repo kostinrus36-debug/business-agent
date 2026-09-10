@@ -209,11 +209,24 @@ Choice — если это ещё актуально, реальная дост�
 выше оптимистичной оценки. Подтвердить или опровергнуть эту наценку из
 этой сессии не удалось.
 
-**Итог по доставке: €4-5 (оптимистично, старая оценка в файле) — до
-€7-8 (если ЕС-наценка ещё в силе). Не закрыто окончательно** — нужен один
-живой пробный чек-аут в Printify с немецким адресом доставки, это займёт
-у владельца меньше времени, чем заняло это исследование, и даст точный
-ответ вместо оценки.
+**Итог по доставке — закрыто веб-поиском 2026-09-10 (роль Рынок и
+снабжение), пессимистичный сценарий подтверждён.** Ранее (2026-08-16)
+наценка ЕС +$3.50 к Printify Choice была под вопросом — единственным
+источником была форумная ветка Shopify Community примерно 2022 года,
+возможно устаревшая. Прогон 2026-09-10 перепроверил через WebSearch (прямой
+доступ к printify.com по-прежнему заблокирован egress-прокси этой сессии,
+не изменилось): поисковая выдача стабильно и по трём независимым запросам
+подряд возвращает одну и ту же цифру с официальной страницы
+printify.com/shipping-rates/printify-choice/ — **"Shipping to European
+countries is subject to an additional $3.50 charge for Printify Choice
+orders"**, независимо подтверждено агрегатором podvector.ai (используется
+в этом файле с 2026-08-16 для паттерна цветовых наценок). Наценка не
+устарела, действует и в 2026.
+**Итоговая оценка доставки в Германию: $4.29 (база) + $3.50 (ЕС-наценка)
+= $7.79 (~€7.2-7.5 по текущему курсу)** — это сценарий C из таблицы ниже,
+не оптимистичный сценарий A/B. Живой чек-аут по-прежнему может уточнить
+цифру до цента, но принципиальный вопрос "оптимистично или пессимистично"
+больше не открыт — пессимистично, с высокой уверенностью.
 
 **Обновлённая маржа при €25, три сценария:**
 
@@ -223,21 +236,33 @@ Choice — если это ещё актуально, реальная дост�
 | B. True Black, доставка оптимистично | €17.90 | €0.65 | €4.50 | €3.25 | €26.30 | **-€1.30/шт** |
 | C. Дешёвый цвет, доставка пессимистично (ЕС-наценка) | €14.40 | €0.65 | €7.50 | €3.25 | €25.80 | **-€0.80/шт** |
 
-**Рекомендация:**
+**Маржа при €27-28 (рекомендованная розница, доставка €7.5 подтверждена):**
+
+| Сценарий | Бланк | Брендинг | Доставка | Комиссия eBay (~13% от €27) | Итого расход | Маржа |
+|---|---|---|---|---|---|---|
+| D. Дешёвый цвет ("Faded"), €27 | €14.40 | €0.65 | €7.50 | €3.51 | €26.06 | **+€0.94/шт** |
+| E. Дешёвый цвет ("Faded"), €28 | €14.40 | €0.65 | €7.50 | €3.64 | €26.19 | **+€1.81/шт** |
+| F. True Black, €28 | €17.90 | €0.65 | €7.50 | €3.64 | €29.69 | **-€1.69/шт (всё ещё минус)** |
+
+Вывод: при подтверждённой доставке €25 не даёт положительной маржи ни в
+одном реалистичном сценарии — розница €27-28 обязательна, не опция.
+True Black остаётся исключённым из старта при любой рознице до €30.
+
+**Рекомендация (обновлено 2026-09-10 — сценарий C подтверждён, не гипотеза):**
 1. Стартовать **только с цветами линейки "Faded"** (Cream, Bone, Army,
    Navy, Brown, Mustard, Powder Blue) — они и попадают в дешёвую часть
    диапазона по оценке выше, и по духу ближе к премиум-приглушённой
    палитре (совпадает с ориентиром на Black Diamond, см. начало п.8.5),
    чем насыщенный True Black.
-2. **Не использовать True Black при рознице €25** ни при одном из
-   рассмотренных сценариев доставки — маржа отрицательная даже в лучшем
-   случае (сценарий B).
-3. Перед первой публикацией — один живой чек-аут в Printify с доставкой
-   в Германию, чтобы закрыть последнюю неопределённость (сценарий A или
-   C). Если подтвердится пессимистичный сценарий C — поднять розницу до
-   **€27-28**: это всё ещё в рынке для премиум-позиционирования (бренды
-   уровня Black Diamond продают футболки от €30+), и лучше, чем листинг
-   в минус с первого дня.
+2. **Не использовать True Black ни при €25, ни при €27-28** — маржа
+   отрицательная в обоих ценовых сценариях при подтверждённой доставке
+   €7-7.5 (сценарий B пересчитан ниже).
+3. **Розница поднята до €27-28 сразу, без ожидания живого чек-аута** —
+   доставка €7-7.5 (сценарий C) теперь подтверждена веб-поиском (см. выше),
+   не гипотеза. Публикация больше не обязана ждать тестового заказа в
+   Printify — это снимает шаг 1 из пакета одобрения (см. PORTFOLIO.md).
+   Живой чек-аут по-прежнему полезен для точности до цента, но не
+   блокирует публикацию.
 
 Источники по этому разделу: printify.com/shipping-rates/printify-choice/
 (только через фрагмент поисковой выдачи — прямой WebFetch заблокирован
@@ -402,7 +427,7 @@ Kragen bleibt ausschließlich funktional.
 Dieses Shirt ist bewusst nicht auf den niedrigsten Preis, sondern auf
 Stoffqualität und Langlebigkeit ausgelegt (Referenz: Marken wie Black
 Diamond) — deshalb ein höherwertiger Blank statt eines dünnen
-Standard-POD-Shirts, bei vollem Preis-Deckel von 25 €.
+Standard-POD-Shirts, bei einem Preis von 27-28 €.
 
 **Nicht nur zum Klettern**
 Genauso am Fels wie danach beim Bier mit der Gruppe — das Shirt ist
@@ -461,7 +486,7 @@ Motiv abgestimmt.
 **Warum kein Billig-Shirt**
 Bewusst auf Stoffqualität und Langlebigkeit ausgelegt (Referenz: Marken
 wie Black Diamond) statt auf den niedrigsten Preis — höherwertiger Blank
-statt dünnem Standard-POD-Shirt, bei vollem Preis-Deckel von 25 €.
+statt dünnem Standard-POD-Shirt, bei einem Preis von 27-28 €.
 
 **Nicht nur zum Klettern**
 Genauso am Fels wie danach beim Bier mit der Gruppe — Casual-tauglich.
@@ -500,8 +525,8 @@ abgestimmt.
 
 **Warum kein Billig-Shirt**
 Bewusst auf Stoffqualität und Langlebigkeit ausgelegt (Referenz: Marken
-wie Black Diamond) statt auf den niedrigsten Preis, bei vollem
-Preis-Deckel von 25 €.
+wie Black Diamond) statt auf den niedrigsten Preis, bei einem Preis von
+27-28 €.
 
 **Nicht nur zum Klettern**
 Genauso am Fels wie danach beim Bier mit der Gruppe — Casual-tauglich.
@@ -540,8 +565,8 @@ abgestimmt.
 
 **Warum kein Billig-Shirt**
 Bewusst auf Stoffqualität und Langlebigkeit ausgelegt (Referenz: Marken
-wie Black Diamond) statt auf den niedrigsten Preis, bei vollem
-Preis-Deckel von 25 €.
+wie Black Diamond) statt auf den niedrigsten Preis, bei einem Preis von
+27-28 €.
 
 **Nicht nur zum Klettern**
 Genauso am Fels wie danach beim Bier mit der Gruppe — Casual-tauglich.
@@ -579,8 +604,8 @@ farblich auf das Motiv abgestimmt.
 
 **Warum kein Billig-Shirt**
 Bewusst auf Stoffqualität und Langlebigkeit ausgelegt (Referenz: Marken
-wie Black Diamond) statt auf den niedrigsten Preis, bei vollem
-Preis-Deckel von 25 €.
+wie Black Diamond) statt auf den niedrigsten Preis, bei einem Preis von
+27-28 €.
 
 **Nicht nur zum Klettern**
 Genauso am Fels wie danach beim Bier mit der Gruppe — Casual-tauglich.
@@ -596,24 +621,27 @@ Fragen zu Größe/Farbe gerne vor dem Kauf per Nachricht.
 Printful не закрыт, но на паузе ("пусть курит"), поэтому его пункты ниже
 отдельно и не требуют действия сейчас.
 
-**Активный трек — Printify/eBay:**
-1. **Один пробный чек-аут в Printify с немецким адресом доставки** — самый
-   важный оставшийся открытый вопрос (п.8.5): подтверждает, попадаем ли в
-   оптимистичный сценарий доставки (€4-5, маржа +€2.20 на дешёвых цветах)
-   или в пессимистичный (€7-8 из-за возможной ЕС-наценки, маржа уходит в
-   минус) — от этого зависит, публиковать по €25 или поднимать до €27-28.
-2. **Финализировать карточку Kalymnos**: цвет — рекомендация линейки
+**Активный трек — Printify/eBay (обновлено 2026-09-10 — шаг чек-аута больше
+не блокирует публикацию, см. разбор доставки в п.8.5 выше):**
+1. **Финализировать карточку Kalymnos**: цвет — рекомендация линейки
    "Faded" (уже загружен мокап Verwaschenes Creme/Faded Cream), **не
-   True Black** (маржа отрицательная при €25 в любом сценарии доставки,
-   см. таблицу сценариев в п.8.5). Вставить готовый текст (заголовок,
-   Artikelmerkmale, описание — см. "eBay-Listing-Text (Kalymnos)" выше) и
-   опубликовать в eBay-магазин.
-3. **Повторить для остальных 4 дизайнов** (Siurana, Arco, Thailand, Route
+   True Black** (маржа отрицательная при любой рознице до €30, см.
+   таблицу сценариев D/E/F в п.8.5). **Цена — €27 или €28, не €25**
+   (доставка €7-7.5 в Германию подтверждена веб-поиском 2026-09-10, при
+   €25 маржа уходит в минус на любом цвете). Вставить готовый текст
+   (заголовок, Artikelmerkmale, описание — см. "eBay-Listing-Text
+   (Kalymnos)" выше — заменить "25 €" в тексте описания на "27 €" или
+   "28 €" по факту выбранной цены) и опубликовать в eBay-магазин.
+2. **Повторить для остальных 4 дизайнов** (Siurana, Arco, Thailand, Route
    Line) — тексты уже готовы (см. "eBay-Listing-Text (Siurana, Arco,
    Thailand, Route Line)" выше, добавлено 2026-08-25), осталось: вставить
    точный грейд с файла дизайна для Siurana/Arco/Thailand (Route Line —
    уже 7b), выбрать Faded-цвет футболки в Printify под готовый мокап,
-   загрузить дизайн/лого нужного цвета чернил, опубликовать.
+   загрузить дизайн/лого нужного цвета чернил, заменить "25 €" на
+   "27 €"/"28 €" в тексте, опубликовать.
+3. Тестовый чек-аут в Printify (опционально, для точности до цента) можно
+   сделать в любой момент до или после публикации — он больше не условие
+   для старта.
 
 **Отложенный трек — Etsy/Printful (не срочно, только если решим вернуться):**
 4. Обновлённые файлы дизайна для Printful готовы в
