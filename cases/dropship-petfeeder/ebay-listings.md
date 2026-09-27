@@ -105,14 +105,113 @@ verheddern — ideal für Spaziergänge, Joggen oder mit dem Hundesitter.
 
 **Категория:** Haustierbedarf > Hunde > Leinen & Halsbänder
 
-## Общие настройки для всех 5 листингов
+## 6. Schleck-Matte / Snuffle-Matte (нет электроники, обходит WEEE — 2026-08-31)
+**Зачем именно эти тексты сейчас:** кандидат из cj-sku-candidates.md п.6,
+подтверждён 4 независимыми источниками за 3 прогона подряд. В отличие от
+товаров 1-4 не требует WEEE-регистрации (registration-followups.md) —
+если SKU найдётся в CJ с EU-складом раньше остальных, это может стать
+первым реально опубликованным товаром PawStay. Точная цена/SKU — после
+подбора владельцем в дашборде CJ (см. cj-sku-candidates.md), текст ниже
+готов к вставке с плейсхолдером цены по рыночной вилке (конкуренты
+eBay.de/Amazon.de на снаффл-маты — €9.99-16.99).
+
+**Заголовок (80 симв.):** Schleck Matte Hund Katze Snuffle Mat
+rutschfest Anti Angst Napf
+
+**Цена:** €12.99 (плейсхолдер — уточнить после закупочной цены CJ, целевая
+маржа ~30% как у остальных товаров кейса)
+
+**Описание:**
+"Langsamer fressen, weniger Stress, mehr Beschäftigung. Die Schleck-Matte
+nutzt den natürlichen Schnüffel-Instinkt: Leckerli oder Nassfutter wird in
+die Silikonnoppen gestrichen, dein Haustier muss sich die Belohnung
+erschlecken statt sie in Sekunden zu verschlingen — ideal gegen zu
+schnelles Fressen, Langeweile oder leichte Trennungsangst.
+
+**Eigenschaften:**
+- Lebensmittelechtes Silikon, spülmaschinenfest
+- Rutschfeste Saugnäpfe auf der Unterseite
+- Für Hunde und Katzen geeignet
+- Versand aus EU-Lager — Lieferzeit 2-5 Werktage"
+
+**Категория:** Haustierbedarf > Hunde/Katzen > Näpfe & Fressmatten
+
+## 7. Pfotenreiniger-Becher (нет электроники, обходит WEEE — 2026-08-31)
+**Заголовок (80 симв.):** Pfotenreiniger Becher Hund Katze Silikon
+tragbar für unterwegs
+
+**Цена:** €9.99 (плейсхолдер — уточнить после закупочной цены CJ)
+
+**Описание:**
+"Saubere Pfoten nach jedem Spaziergang, ohne Sauerei. Pfote rein, drehen,
+fertig — die Silikonborsten lösen Schmutz und Matsch, ohne dass du dich
+bücken oder ein nasses Handtuch suchen musst. Praktisch für draußen,
+Auto oder direkt an der Wohnungstür.
+
+**Eigenschaften:**
+- Weiche Silikonborsten, hautschonend
+- Kompakte Größe, passt in Rucksack/Auto
+- Einfach zu reinigen
+- Versand aus EU-Lager — Lieferzeit 2-5 Werktage"
+
+**Категория:** Haustierbedarf > Hunde/Katzen > Pflege & Hygiene
+
+## 8. Kühlmatte für Haustiere (нет электроники, обходит WEEE — 2026-09-07)
+**Зачем именно сейчас:** завершает набор из 5 не-электронных товаров для
+MVP-запуска фазы 1 (см. `plan.md`, п.1, пивот 2026-09-07) — с этим текстом
+у кейса готовы описания на все 5 товаров первой фазы, не хватает только
+подбора SKU в дашборде CJ.
+
+**Заголовок (80 симв.):** Kühlmatte Hund Katze selbstkühlend ohne Strom
+Sommer Matte
+
+**Цена:** €18.99 (плейсхолдер — уточнить после закупочной цены CJ,
+целевая маржа ~30%)
+
+**Описание:**
+"Angenehme Kühlung an heißen Tagen — ganz ohne Strom oder Kühlschrank.
+Die Matte aktiviert sich durch simplen Körperdruck und kühlt sofort,
+ideal für kurzhaarige Rassen, nach dem Spaziergang oder im Auto.
+
+**Eigenschaften:**
+- Selbstkühlend durch Gel-Technologie, kein Strom/Kühlschrank nötig
+- Rutschfeste Unterseite, robustes Material
+- Einfach abwischbar
+- Versand aus EU-Lager — Lieferzeit 2-5 Werktage"
+
+**Категория:** Haustierbedarf > Hunde/Katzen > Decken & Matten
+
+## 9. Kuscheldecke für Haustiere (нет электроники, обходит WEEE — 2026-09-07)
+**Заголовок (80 симв.):** Kuscheldecke Hund Katze weich waschbar
+rutschfest Haustierdecke
+
+**Цена:** €14.99 (плейсхолдер — уточнить после закупочной цены CJ)
+
+**Описание:**
+"Ein weicher Rückzugsort für dein Haustier — auf dem Sofa, im Körbchen
+oder im Auto. Flauschiges, waschmaschinenfestes Material, das auch nach
+vielen Wäschen kuschelig bleibt.
+
+**Eigenschaften:**
+- Weiches Flanell/Fleece-Material
+- Waschmaschinenfest bis 30°C
+- Verschiedene Größen für kleine bis große Haustiere
+- Versand aus EU-Lager — Lieferzeit 2-5 Werktage"
+
+**Категория:** Haustierbedarf > Hunde/Katzen > Decken & Matten
+
+## Общие настройки для всех 9 листингов
 - Versandart: DHL/DPD/GLS (через CJ), kostenloser Versand (заложен в цену)
 - Rückgabe: 30 Tage (стандарт eBay для новых продавцов, повышает доверие)
 - Zustand: Neu
 - Bezahlung: eBay Managed Payments (автоматически при регистрации
   gewerblich-аккаунта)
 
-## Порядок публикации (рекомендация)
-Начать с товара 1 (флагман, самый проверенный спрос) — если пойдут первые
-продажи/отзывы, публиковать 2 и 5 (дешёвые, быстрый оборот, кросс-селл),
-затем 3 и 4 (крайние ценовые сегменты, когда уже есть история продавца).
+## Порядок публикации (обновлено 2026-09-07 — MVP-пивот)
+Кейс запускается фазой 1 = товары **5, 6, 7, 8, 9** (поводок,
+снаффл-мат, очиститель лап, охлаждающий коврик, плед) — все не-электронные,
+не требуют WEEE, только LUCID (уже в пакете одобрения, п.1 PORTFOLIO.md).
+Товары 1-4 (WiFi-кормушка, поилка, камера-кормушка, таймер-кормушка) —
+фаза 2, публикуются только после того, как WEEE закрыт (см.
+`registration-followups.md`). Внутри фазы 1 порядок не критичен — все 5
+в одном ценовом/рисковом классе, публиковать по мере готовности SKU в CJ.
