@@ -6,6 +6,7 @@ on:
     paths:
       - 'cases/content-site/**'
       - 'cases/grade-tool/**'
+      - 'cases/control-center/**'
       - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
@@ -27,11 +28,12 @@ jobs:
       - name: Assemble public site (only content-site + grade-tool, no internal docs)
         run: |
           set -e
-          mkdir -p _site/content-site _site/grade-tool
+          mkdir -p _site/content-site _site/grade-tool _site/control-center
 
           # Only .html files — leaves out niche-research.md / domain-plan.md (internal)
           cp cases/content-site/*.html _site/content-site/
           cp cases/grade-tool/*.html _site/grade-tool/
+          cp cases/control-center/*.html _site/control-center/
 
           # Root redirect to the hub's real entry point, keeping all existing
           # relative links inside content-site/ and grade-tool/ untouched.

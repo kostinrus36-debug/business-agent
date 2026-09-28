@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Control Center — Business Incubator</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --card: #171a21;
+    --border: #2a2f3a;
+    --text: #e6e8ec;
+    --muted: #9aa3b2;
+    --accent: #5eead4;
+    --accent2: #f2c94c;
+    --danger: #f87171;
+    --ok: #4ade80;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    padding: 16px;
+    line-height: 1.45;
+  }
+  h1 { font-size: 1.3rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: 0.85rem; margin-bottom: 16px; }
+  .banner {
+    background: linear-gradient(135deg, #1a2e2a, #14181f);
+    border: 1px solid var(--accent);
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-bottom: 18px;
+    font-size: 0.95rem;
+  }
+  .banner b { color: var(--accent); }
+  section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px;
+    margin-bottom: 14px;
+  }
+  section h2 {
+    font-size: 1.05rem;
+    margin: 0 0 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .badge {
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: #26314a;
+    color: var(--accent);
+    white-space: nowrap;
+  }
+  .badge.money { background: #2a3320; color: var(--ok); }
+  .why { color: var(--muted); font-size: 0.85rem; margin: 4px 0 10px; }
+  .item {
+    border-top: 1px dashed var(--border);
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  .item:first-of-type { border-top: none; margin-top: 0; padding-top: 0; }
+  .item h3 { font-size: 0.95rem; margin: 0 0 6px; }
+  .field-label { font-size: 0.75rem; color: var(--muted); margin-top: 8px; margin-bottom: 2px; text-transform: uppercase; letter-spacing: .03em; }
+  textarea {
+    width: 100%;
+    background: #0c0e12;
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 0.85rem;
+    font-family: inherit;
+    resize: vertical;
+  }
+  button.copy {
+    margin-top: 6px;
+    background: #1f2937;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 6px;
+    padding: 7px 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  button.copy.copied { background: var(--accent); color: #0c0e12; border-color: var(--accent); }
+  a.link-btn {
+    display: inline-block;
+    margin-top: 6px;
+    background: #26314a;
+    color: var(--text);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    text-decoration: none;
+  }
+  table.specs { width: 100%; border-collapse: collapse; font-size: 0.8rem; margin: 6px 0; }
+  table.specs td { border-bottom: 1px solid var(--border); padding: 4px 2px; }
+  table.specs td:first-child { color: var(--muted); width: 40%; }
+  .price { color: var(--accent2); font-weight: 600; }
+  footer { color: var(--muted); font-size: 0.75rem; margin-top: 20px; text-align: center; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+
+<h1>Business Incubator — Control Center</h1>
+<div class="sub">Один экран вместо разбросанных markdown-файлов. Обновлено 2026-09-28. Полная картина — <a href="https://github.com/kostinrus36-debug/business-agent/blob/main/PORTFOLIO.md" style="color:var(--accent)">PORTFOLIO.md</a>.</div>
+
+<div class="banner">
+  <b>Если есть только 15 минут на этой неделе</b> — открой раздел А ниже, скопируй три поля кнопками и вставь в Etsy. Это самый быстрый путь к первой реальной продаже во всём портфеле.
+</div>
+
+<section id="a">
+  <h2>А. Etsy — 3 цифровых листинга <span class="badge money">~85% маржа</span></h2>
+  <div class="why">Файлы и тексты полностью готовы. Ноль себестоимости, ноль риска доставки/возврата. Магазин уже существует (ROUTELINEWEAR).</div>
+  <a class="link-btn" href="https://www.etsy.com/your/shops/me/tools/listings?tab=active" target="_blank" rel="noopener">Открыть Etsy Shop Manager →</a>
+
+  <div class="item">
+    <h3>1. Send Log & Training Tracker — <span class="price">€4.99</span></h3>
+    <div class="field-label">Заголовок</div>
+    <textarea rows="2" readonly id="a1-title">Climbing Send Log Printable | Rock Climbing Training Tracker PDF | Bouldering & Sport Climbing Journal | Instant Download</textarea>
+    <button class="copy" data-target="a1-title">Копировать заголовок</button>
+    <div class="field-label">Описание (первый абзац)</div>
+    <textarea rows="4" readonly id="a1-desc">Track every send, every session, every grade. A minimalist 2-page printable for climbers who take their progress seriously — a send log to record every route, and a training tracker with a grade pyramid to watch your progress at a glance. Instant PDF download, print at home or fill in digitally.</textarea>
+    <button class="copy" data-target="a1-desc">Копировать описание</button>
+    <div class="field-label">Теги (13, через запятую)</div>
+    <textarea rows="3" readonly id="a1-tags">climbing log, send log printable, climbing tracker, bouldering journal, climbing training log, rock climbing gift, grade pyramid, climbing planner, sport climbing log, instant download climbing, climber gift digital, training tracker pdf, climbing journal printable</textarea>
+    <button class="copy" data-target="a1-tags">Копировать теги</button>
+    <div class="field-label">Файл</div>
+    <textarea rows="1" readonly id="a1-file">send-log-printable.pdf</textarea>
+  </div>
+
+  <div class="item">
+    <h3>2. Grade Chart Poster — <span class="price">€5.99</span></h3>
+    <div class="field-label">Заголовок</div>
+    <textarea rows="2" readonly id="a2-title">Climbing Grade Chart Poster | Rock Climbing & Bouldering Grade Conversion Print | Minimalist Wall Art | Instant Download A3</textarea>
+    <button class="copy" data-target="a2-title">Копировать заголовок</button>
+    <div class="field-label">Описание (первый абзац)</div>
+    <textarea rows="4" readonly id="a2-desc">Every climbing grade system, one poster. French, YDS, UIAA, British and Ewbank route grades plus V-Scale and Fontainebleau boulder grades — laid out in a clean, minimalist chart that looks as good on your wall as it does pinned by the crag topo. Instant PDF download, print at A3 or scale to fit any frame.</textarea>
+    <button class="copy" data-target="a2-desc">Копировать описание</button>
+    <div class="field-label">Теги (13, через запятую)</div>
+    <textarea rows="3" readonly id="a2-tags">climbing grade chart, climbing poster, bouldering grade chart, climbing wall art, grade conversion chart, climbing decor, V-scale font chart, climbing gift digital, rock climbing print, minimalist climbing poster, sport climbing chart, climbing reference print, gym wall decor</textarea>
+    <button class="copy" data-target="a2-tags">Копировать теги</button>
+    <div class="field-label">Файл</div>
+    <textarea rows="1" readonly id="a2-file">grade-chart-poster.pdf</textarea>
+  </div>
+
+  <div class="item">
+    <h3>3. Printable Bundle (оба файла) — <span class="price">€8.99</span></h3>
+    <div class="field-label">Заголовок</div>
+    <textarea rows="2" readonly id="a3-title">Climbing Printable Bundle | Send Log & Training Tracker + Grade Chart Poster | Rock Climbing Gift Set | Instant Download PDF Save 18%</textarea>
+    <button class="copy" data-target="a3-title">Копировать заголовок</button>
+    <div class="field-label">Описание (первый абзац)</div>
+    <textarea rows="4" readonly id="a3-desc">Everything a climber needs, bundled and discounted. Get the Climbing Send Log & Training Tracker (log every route, watch your grade pyramid grow) together with the Climbing Grade Chart Poster (every major grading system, one clean chart) — for 18% less than buying them separately. Two instant PDF downloads, print at home or fill in digitally.</textarea>
+    <button class="copy" data-target="a3-desc">Копировать описание</button>
+    <div class="field-label">Теги (13, через запятую)</div>
+    <textarea rows="3" readonly id="a3-tags">climbing bundle, climbing gift set, climbing pdf bundle, rock climbing bundle, bouldering bundle, climbing printable set, grade chart bundle, send log bundle, climbing digital set, climber gift bundle, training tracker set, instant download deal, climbing value bundle</textarea>
+    <button class="copy" data-target="a3-tags">Копировать теги</button>
+    <div class="field-label">Файлы (оба, как два download в одном листинге)</div>
+    <textarea rows="1" readonly id="a3-file">send-log-printable.pdf + grade-chart-poster.pdf</textarea>
+  </div>
+</section>
+
+<section id="s4">
+  <h2>4. Printify → eBay.de — Kalymnos (первый из 5 дизайнов)</h2>
+  <div class="why">Карточка уже начата в Printify. Цвет: Faded Cream. Цена <span class="price">€27-28</span> (доставка в ЕС ≈€7.2-7.5 — ниже даёт минус). После публикации проверь, что листинг на <b>eBay.de</b>, а не eBay.com (см. п.3 в PORTFOLIO.md, пункт 4).</div>
+  <a class="link-btn" href="https://printify.com/app/store" target="_blank" rel="noopener">Открыть Printify →</a>
+
+  <div class="item">
+    <div class="field-label">Titel (eBay, ≤80 Zeichen)</div>
+    <textarea rows="2" readonly id="s4-title">Kletter T-Shirt Kalymnos 6c+ Routenlinie Unisex Premium Heavyweight Baumwolle</textarea>
+    <button class="copy" data-target="s4-title">Копировать Titel</button>
+
+    <div class="field-label">Artikelmerkmale</div>
+    <table class="specs">
+      <tr><td>Marke</td><td>ROUTELINEWEAR</td></tr>
+      <tr><td>Farbe</td><td>Verwaschenes Creme (Faded Cream)</td></tr>
+      <tr><td>Material</td><td>100% Baumwolle, garngefärbt, Heavyweight ~203 g/m²</td></tr>
+      <tr><td>Passform</td><td>Regular / True-to-Size</td></tr>
+      <tr><td>Ärmellänge</td><td>Kurzarm</td></tr>
+      <tr><td>Geschlecht</td><td>Unisex</td></tr>
+      <tr><td>Muster</td><td>Motivdruck (Rückenprint)</td></tr>
+      <tr><td>Herstellung</td><td>Print-on-Demand, Blank: American Apparel 1301GD</td></tr>
+      <tr><td>Größe</td><td>S–3XL (Bestand vor Veröffentlichung prüfen)</td></tr>
+    </table>
+
+    <div class="field-label">Beschreibung</div>
+    <textarea rows="14" readonly id="s4-desc">ROUTELINEWEAR — Kalymnos, Grad 6c+
+
+Kein Massenware-Aufdruck, sondern die echte Routenlinie: das Motiv auf dem Rücken zeigt das reale Höhenprofil eines Aufstiegs auf Kalymnos (Griechenland) — vom Start bis zum Top, mit der tatsächlichen Schwierigkeitsgradierung 6c+. Minimalistisch gezeichnet, für Kletterer, die ihre Route nicht vergessen.
+
+Material & Passform
+Bedruckt auf dem American Apparel 1301GD — einem garngefärbten Heavyweight-Tee (ca. 203 g/m² / 6 oz), einem der dichtesten und langlebigsten Blanks am Markt. Klassischer, körpernaher Schnitt (kein Oversized/Boxy-Fit) — die Größe fällt wie gewohnt aus, kein Hochbestellen nötig. Farbe: Verwaschenes Creme, ein gedeckter, premium wirkender Ton statt grellem Basic-Weiß.
+
+Druck & Details
+Hauptmotiv (Routenlinie Kalymnos) — großflächig auf der Rückseite. Kleines ROUTE/LINE-Logo — auf der linken Brust vorne, farblich auf das Motiv abgestimmt. Kein doppeltes Branding: Größen-/Pflegeetikett am Kragen bleibt ausschließlich funktional.
+
+Warum kein Billig-Shirt
+Dieses Shirt ist bewusst nicht auf den niedrigsten Preis, sondern auf Stoffqualität und Langlebigkeit ausgelegt (Referenz: Marken wie Black Diamond) — deshalb ein höherwertiger Blank statt eines dünnen Standard-POD-Shirts, bei einem Preis von 27-28 €.
+
+Nicht nur zum Klettern
+Genauso am Fels wie danach beim Bier mit der Gruppe — das Shirt ist Casual-tauglich, kein reines Funktionsteil.
+
+Versand aus der EU-Fertigung (Printify), Lieferzeit siehe eBay-Checkout. Fragen zu Größe/Farbe gerne vor dem Kauf per Nachricht.</textarea>
+    <button class="copy" data-target="s4-desc">Копировать описание</button>
+  </div>
+  <div class="why" style="margin-top:10px;">Остальные 4 дизайна (Siurana, Arco, Thailand, Route Line) — тот же формат, тексты готовы в <a href="https://github.com/kostinrus36-debug/business-agent/blob/main/cases/gewerbe-trading/audit.md" style="color:var(--accent)">audit.md</a> (открывается и с телефона через приложение GitHub).</div>
+</section>
+
+<section id="s1">
+  <h2>1. LUCID-регистрация <span class="badge">PawStay</span></h2>
+  <div class="why">Без этого нельзя законно продавать товары в упаковке на eBay.de.</div>
+  <a class="link-btn" href="https://lucid.verpackungsregister.org/Hersteller/Registrierung/Teil-1" target="_blank" rel="noopener">Открыть LUCID →</a>
+  <div class="item">Данные Gewerbe (название/адрес/Steuernummer) + новый пароль (сохранить в свой менеджер паролей, не сюда). Роль — Hersteller, материалы — Papier/Pappe/Karton + Kunststoff. После активации (письмо, ссылка живёт 24ч) — впиши номер в eBay → Einstellungen → EPR-Registrierungsnummern.</div>
+</section>
+
+<section id="s2">
+  <h2>2. Reclay — договор на утилизацию упаковки <span class="badge">PawStay</span></h2>
+  <div class="why">Обязателен вместе с LUCID перед продажей. ~€10-20.</div>
+  <a class="link-btn" href="https://activate.reclay.de/activate_germany_english/packaginglicensing" target="_blank" rel="noopener">Открыть калькулятор Reclay →</a>
+</section>
+
+<section id="s3">
+  <h2>3. CJ Dropshipping — подбор SKU <span class="badge">PawStay, фаза 1</span></h2>
+  <div class="why">Нужен логин в CJ-кабинет — снаружи каталог не виден. Фильтр: Warehouse = Europe/Germany.</div>
+  <a class="link-btn" href="https://cjdropshipping.com" target="_blank" rel="noopener">Открыть CJ Dropshipping →</a>
+  <div class="item">
+    <div class="field-label">Поисковые запросы (фаза 1, без электроники, WEEE не нужен)</div>
+    <textarea rows="2" readonly id="s3-terms">double dog leash coupler, pet snuffle mat, pet paw cleaner cup, pet cooling mat, pet blanket fleece</textarea>
+    <button class="copy" data-target="s3-terms">Копировать запросы</button>
+  </div>
+</section>
+
+<section id="s4b">
+  <h2>4-b. Printify API — опционально, разово <span class="badge">инфраструктура</span></h2>
+  <div class="why">Снимает будущие ручные походы владельца в Printify (не ускоряет публикацию именно этих 5 дизайнов сегодня). Пропусти, если проще один раз кликнуть по разделу 4 вручную.</div>
+  <a class="link-btn" href="https://developers.printify.com/" target="_blank" rel="noopener">Открыть Printify Developers →</a>
+  <div class="why" style="margin-top:8px;">Токен → в настройки среды Claude Code как <code>PRINTIFY_API_TOKEN</code> (не сюда, не в чат). Подробности — <a href="https://github.com/kostinrus36-debug/business-agent/blob/main/cases/gewerbe-trading/audit.md" style="color:var(--accent)">audit.md, раздел 8.7</a>.</div>
+</section>
+
+<footer>
+  Пароли/токены сюда никогда не вводятся — только в менеджер паролей / настройки среды. Эта страница публична (репозиторий открытый), внутренних учётных данных не содержит.<br>
+  <a href="https://github.com/kostinrus36-debug/business-agent">business-agent на GitHub</a>
+</footer>
+
+<script>
+document.querySelectorAll('button.copy').forEach(function (btn) {
+  btn.addEventListener('click', function () {
+    var ta = document.getElementById(btn.dataset.target);
+    var text = ta.value;
+    function done() {
+      var orig = btn.textContent;
+      btn.textContent = '✓ скопировано';
+      btn.classList.add('copied');
+      setTimeout(function () { btn.textContent = orig; btn.classList.remove('copied'); }, 1500);
+    }
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(text).then(done).catch(function () { fallbackCopy(ta, done); });
+    } else {
+      fallbackCopy(ta, done);
+    }
+  });
+});
+function fallbackCopy(ta, done) {
+  ta.removeAttribute('readonly');
+  ta.focus();
+  ta.select();
+  try { document.execCommand('copy'); done(); } catch (e) {}
+  ta.setAttribute('readonly', 'readonly');
+}
+</script>
+
+</body>
+</html>
